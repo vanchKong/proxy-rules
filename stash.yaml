@@ -46,7 +46,7 @@ proxy-groups:
     <<: *p
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Available.png
     type: select
-    filter: ^(?!.*(?i)(剩|到|重)).*$
+    filter: ^(?!.*(?i)(剩|到|重|防|电报|群组|频道|公益|付费)).*$
     include-all: true
 
   - name: 人工智能 🤖

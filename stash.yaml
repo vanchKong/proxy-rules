@@ -14,12 +14,12 @@ dns:
 subscribe-url:
 
 # > 远程服务器
-proxy-providers:
-  Subscribe:
-    interval: 3600
-    url: http://your-service-provider
-    benchmark-timeout: 5
-    benchmark-url: http://connectivitycheck.gstatic.com/generate_204
+# proxy-providers:
+#   Subscribe:
+#     interval: 3600
+#     url: http://your-service-provider
+#     benchmark-timeout: 5
+#     benchmark-url: http://connectivitycheck.gstatic.com/generate_204
 
 proxy-groups-config: &p
   interval: 300
@@ -48,13 +48,13 @@ proxy-groups:
     <<: *p
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Available.png
     type: select
-    proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]
+    proxies: [香港节点 🇭🇰, 日本节点 🇯🇵, 美国节点 🇺🇸, 台湾节点 🇨🇳, 新加坡节点 🇸🇬, 韩国节点 🇰🇷, 冷门地区 ❄️]
 
   - name: 人工智能 🤖
     <<: *p
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bot.png
     type: select
-    proxies: [手动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点]
+    proxies: [日本节点 🇯🇵, 美国节点 🇺🇸, 地区选择 🌍, 手动选择 👌]
 
   - name: 巴哈姆特 📺
     <<: *p

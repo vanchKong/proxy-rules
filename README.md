@@ -72,4 +72,4 @@ https://purge.jsdelivr.net/xxx/xxx...
 
 ### 覆写
 
-我准备了 [clash 的 扩展脚本](./clash.js)、[loon 的 覆写配置](./loon.sh)，
+我准备了 [clash 的 扩展脚本](./clash.js)、[loon 的 覆写配置](./loon.conf)，

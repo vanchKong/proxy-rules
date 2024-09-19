@@ -1,0 +1,5 @@
+payload:
+  - DOMAIN-SUFFIX,dmzshequ.com
+  - DOMAIN-KEYWORD,xfltd
+  - DOMAIN-SUFFIX,uniss.me
+  - DOMAIN-SUFFIX,leiting.io

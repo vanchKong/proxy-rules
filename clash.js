@@ -184,14 +184,14 @@ const ruleProviders = {
 	// 	url: 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.yaml',
 	// 	path: './ruleset/telegram_ip.yaml',
 	// },
-	// steam ---------------------------------------------------------
+	// Steam ---------------------------------------------------------
 	'Steam': {
 		...ruleProviderCommon,
 		behavior: 'classical',
 		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml',
 		path: './ruleset/Steam.yaml',
 	},
-	// steamCN ---------------------------------------------------------
+	// SteamCN ---------------------------------------------------------
 	'SteamCN_No_Resolve': {
 		...ruleProviderCommon,
 		behavior: 'classical',
@@ -232,6 +232,7 @@ const ruleProviders = {
 		url: 'https://cdn.jsdelivr.net/gh/vanchkong/proxy-rules@release/applications-rules.txt',
 		path: './ruleset/applications.yaml',
 	},
+	// Github ---------------------------------------------------------
 	'Github': {
 		...ruleProviderCommon,
 		behavior: 'classical',

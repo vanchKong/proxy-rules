@@ -259,7 +259,7 @@ const rules = [
 ]
 // 代理组通用配置
 const groupBaseOption = {
-	'interval': 300,
+	'interval': 60000,
 	'timeout': 3000,
 	'url': 'https://www.google.com/generate_204',
 	'lazy': true,
@@ -515,7 +515,7 @@ function main(config) {
 			...groupBaseOption,
 			name: '自动选择 📡',
 			type: 'url-test',
-			tolerance: 50,
+			tolerance: 100,
 			proxies: [...allProxy],
 			icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png',
 			hidden: true,
@@ -523,7 +523,7 @@ function main(config) {
 		// 香港节点 🇭🇰
 		{
 			...groupBaseOption,
-			'tolerance': 50,
+			'tolerance': 100,
 			'name': '香港节点 🇭🇰',
 			'type': 'url-test',
 			'filter': '(?i)港|HK|Hong Kong|HongKong|🇭🇰',
@@ -534,7 +534,7 @@ function main(config) {
 		// 台湾节点 🇨🇳
 		{
 			...groupBaseOption,
-			'tolerance': 50,
+			'tolerance': 100,
 			'name': '台湾节点 🇨🇳',
 			'type': 'url-test',
 			'filter': '(?i)台|台湾|TAIWAN|TW|TAI WAN|🇹🇼',
@@ -545,7 +545,7 @@ function main(config) {
 		// 美国节点 🇺🇸
 		{
 			...groupBaseOption,
-			'tolerance': 50,
+			'tolerance': 100,
 			'name': '美国节点 🇺🇸',
 			'type': 'url-test',
 			'filter': '(?i)United States|America|USA|US|🇺🇸|美国',
@@ -556,7 +556,7 @@ function main(config) {
 		// 日本节点 🇯🇵
 		{
 			...groupBaseOption,
-			'tolerance': 50,
+			'tolerance': 100,
 			'name': '日本节点 🇯🇵',
 			'type': 'url-test',
 			'filter': '(?i)JP|🇯🇵|日本|Japan',
@@ -567,7 +567,7 @@ function main(config) {
 		// 新加坡节点 🇸🇬
 		{
 			...groupBaseOption,
-			'tolerance': 50,
+			'tolerance': 100,
 			'name': '新加坡节点 🇸🇬',
 			'type': 'url-test',
 			'filter': '(?i)SG|🇸🇬|新加坡|Singapore',
@@ -578,7 +578,7 @@ function main(config) {
 		// 韩国节点 🇰🇷
 		{
 			...groupBaseOption,
-			'tolerance': 50,
+			'tolerance': 100,
 			'name': '韩国节点 🇰🇷',
 			'type': 'url-test',
 			'filter': '(?i)韩国|KR|Korea|KOR|🇰🇷',

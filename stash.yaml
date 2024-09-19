@@ -11,15 +11,13 @@ dns:
   nameserver: [quic://223.5.5.5, quic://223.6.6.6, https://1.12.12.12/dns-query, https://120.53.53.53/dns-query]
 
 # > 订阅信息展示
-subscribe-url:
+# subscribe-url:
 
 # > 远程服务器
-# proxy-providers:
-#   Subscribe:
-#     interval: 3600
-#     url: http://your-service-provider
-#     benchmark-timeout: 5
-#     benchmark-url: http://connectivitycheck.gstatic.com/generate_204
+proxy-providers:
+  Subscribe:
+    interval: 3600
+    url: http://your-service-provider
 
 proxy-groups-config: &p
   interval: 300
@@ -48,7 +46,8 @@ proxy-groups:
     <<: *p
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Available.png
     type: select
-    proxies: [香港节点 🇭🇰, 日本节点 🇯🇵, 美国节点 🇺🇸, 台湾节点 🇨🇳, 新加坡节点 🇸🇬, 韩国节点 🇰🇷, 冷门地区 ❄️]
+    include-all: true
+    exclude-filter: (?i)(剩|到|重)
 
   - name: 人工智能 🤖
     <<: *p

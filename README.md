@@ -1,14 +1,5 @@
 <p align="center">
   <img width="100px" src="https://user-images.githubusercontent.com/35565811/214613019-6fd702b7-445e-4663-8471-f47005241724.png" align="center" alt="GitHub Readme Stats" />
-  <h2 align="center">Clash Rules Lite</h2>
- 
-  <p align="center">🍒 自定义代理规则，精简匹配规则。</p>
- 
-  <p align="center">
-    <a href="https://github.com/vanchkong/proxy-rules/blob/master/.github/workflows/release.yml">
-    <img src="https://github.com/vanchkong/proxy-rules/actions/workflows/release.yml/badge.svg" />
-    </a>
-  </p>
  
   <p align="center">
   </p>
@@ -37,19 +28,6 @@
 3. 编辑 `*-rules.*` 以自定义规则
 4. 在对应的 Clash 或 Loon 上刷新配置文件
 
-<div align="center">
-  <center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="https://user-images.githubusercontent.com/35565811/184524456-e956ef59-4577-44e9-9b99-4a8684b77e40.png">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">启动流水线示意图</div>
-  </center>
-</div>
-
 Tips:
 
 > a. 可通过访问进行验证 `https://cdn.jsdelivr.net/gh/{你的GITHUB用户名}/proxy-rules@release/`  
@@ -72,4 +50,4 @@ https://purge.jsdelivr.net/xxx/xxx...
 
 ### 覆写
 
-我准备了 [clash 的 扩展脚本](./clash.js)、[loon 的 覆写配置](./loon.conf)，
+> 我还准备了 [clash 的 扩展脚本](./clash.js)、[Loon 的 覆写配置](./loon.conf)，

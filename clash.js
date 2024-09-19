@@ -66,11 +66,11 @@ const ruleProviderCommon = {
 // 规则集配置
 const ruleProviders = {
 	// 去广告 ---------------------------------------------------------
-	'advertisingLite': {
+	'AdvertisingLite_Domain': {
 		...ruleProviderCommon,
-		behavior: 'classical',
-		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdvertisingLite/AdvertisingLite.yaml',
-		path: './ruleset/advertisingLite.yaml',
+		behavior: 'domain',
+		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml',
+		path: './ruleset/AdvertisingLite_Domain.yaml',
 	},
 	// 巴哈姆特 ------------------------------------------------------------
 	'Bahamut': {
@@ -83,8 +83,14 @@ const ruleProviders = {
 	'Netflix': {
 		...ruleProviderCommon,
 		behavior: 'classical',
-		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix_Classical.yaml',
-		path: './ruleset/Netflix_Classical.yaml',
+		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.yaml',
+		path: './ruleset/Netflix.yaml',
+	},
+	'Netflix_IP': {
+		...ruleProviderCommon,
+		behavior: 'ipcidr',
+		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix_IP.yaml',
+		path: './ruleset/Netflix_IP.yaml',
 	},
 	// AI ------------------------------------------------------------
 	'Gemini': {
@@ -118,11 +124,17 @@ const ruleProviders = {
 		path: './ruleset/OpenAI.yaml',
 	},
 	// 大陆域名、IP --------------------------------------------------------
-	'ChinaMax_Classical_No_Resolve': {
+	'ChinaMax_Domain': {
 		...ruleProviderCommon,
-		behavior: 'classical',
-		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Classical_No_Resolve.yaml',
-		path: './ruleset/ChinaMax_Classical_No_Resolve.yaml',
+		behavior: 'domain',
+		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Domain.yaml',
+		path: './ruleset/ChinaMax_Domain.yaml',
+	},
+	'ChinaMax_IP': {
+		...ruleProviderCommon,
+		behavior: 'ipcidr',
+		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_IP.yaml',
+		path: './ruleset/ChinaMax_IP.yaml',
 	},
 	// 谷歌ip ******************************************************
 	'GoogleIP': {
@@ -144,6 +156,12 @@ const ruleProviders = {
 		behavior: 'classical',
 		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml',
 		path: './ruleset/YouTube.yaml',
+	},
+	'YouTubeMusic': {
+		...ruleProviderCommon,
+		behavior: 'classical',
+		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTubeMusic/YouTubeMusic.yaml',
+		path: './ruleset/YouTubeMusic.yaml',
 	},
 	// 非大陆域名 ******************************************************
 	'geolocation-!cn': {
@@ -181,11 +199,17 @@ const ruleProviders = {
 		path: './ruleset/SteamCN_No_Resolve.yaml',
 	},
 	// Apple ---------------------------------------------------------
-	'Apple_Classical_No_Resolve': {
+	'Apple_No_Resolve': {
 		...ruleProviderCommon,
 		behavior: 'classical',
-		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml',
-		path: './ruleset/Apple_Classical_No_Resolve.yaml',
+		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_No_Resolve.yaml',
+		path: './ruleset/Apple_No_Resolve.yaml',
+	},
+	'Apple_Domain': {
+		...ruleProviderCommon,
+		behavior: 'domain',
+		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_Domain.yaml',
+		path: './ruleset/Apple_Domain.yaml',
 	},
 	// Microsoft ---------------------------------------------------------
 	'Microsoft_No_Resolve': {
@@ -234,13 +258,15 @@ const rules = [
 	'RULE-SET,applications,全局直连 🏠',
 	'RULE-SET,Lan_No_Resolve,全局直连 🏠',
 	'RULE-SET,custom-direct,全局直连 🏠',
-	'RULE-SET,advertisingLite,全局拦截 🚧',
+	'RULE-SET,AdvertisingLite_Domain,全局拦截 🚧',
 	'RULE-SET,Microsoft_No_Resolve,微软服务 Ⓜ️',
-	'RULE-SET,Apple_Classical_No_Resolve,苹果服务 🍎',
+	'RULE-SET,Apple_No_Resolve,苹果服务 🍎',
+	'RULE-SET,Apple_Domain,苹果服务 🍎',
 	'RULE-SET,SteamCN_No_Resolve,全局直连 🏠',
 	'RULE-SET,Steam,蒸汽平台 🎮',
 	'RULE-SET,Bahamut,巴哈姆特 📺',
 	'RULE-SET,Netflix,奈飞服务 📺',
+	'RULE-SET,Netflix_IP,奈飞服务 📺',
 	'RULE-SET,Gemini,人工智能 🤖',
 	'RULE-SET,Copilot,人工智能 🤖',
 	'RULE-SET,Claude,人工智能 🤖',
@@ -251,10 +277,12 @@ const rules = [
 	'RULE-SET,Google,谷歌服务 🇺🇸',
 	'RULE-SET,GoogleIP,谷歌服务 🇺🇸',
 	'RULE-SET,YouTube,谷歌服务 🇺🇸',
+	'RULE-SET,YouTubeMusic,谷歌服务 🇺🇸',
 	'RULE-SET,Github,地区选择 🌍',
 	'RULE-SET,geolocation-!cn,地区选择 🌍',
 	'RULE-SET,custom-proxy,地区选择 🌍',
-	'RULE-SET,ChinaMax_Classical_No_Resolve,全局直连 🏠',
+	'RULE-SET,ChinaMax_Domain,全局直连 🏠',
+	'RULE-SET,ChinaMax_IP,全局直连 🏠,no-resolve',
 	'MATCH,漏网之鱼 🐟',
 ]
 // 代理组通用配置

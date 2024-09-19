@@ -97,12 +97,6 @@ proxy-groups:
     type: select
     proxies: [全局直连 🏠, 地区选择 🌍, 手动选择 👌]
 
-  - name: 电报服务 💬
-    <<: *p
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
-    type: select
-    proxies: [地区选择 🌍, 手动选择 👌, 香港节点 🇭🇰, 日本节点 🇯🇵, 美国节点 🇺🇸, 台湾节点 🇨🇳, 新加坡节点 🇸🇬, 韩国节点 🇰🇷, 冷门地区 ❄️]
-
   - name: 全局直连 🏠
     <<: *p
     url: http://wifi.vivo.com.cn/generate_204

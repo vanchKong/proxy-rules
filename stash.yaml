@@ -187,6 +187,13 @@ rule-providers-config: &r
   interval: 86400
 
 rule-providers:
+  prevent_dns_leak:
+    <<: *r
+    format: text
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/xishang0128/rules@main/clash%20or%20stash/prevent_dns_leak/prevent_dns_leak_domain.list
+    path: ./ruleset/prevent_dns_leak_domain.yaml
+
   # 去广告 ---------------------------------------------------------
   AdvertisingLite_Domain:
     <<: *r
@@ -341,6 +348,7 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/vanchkong/proxy-rules@release/custom-direct-rules.txt
 
 rules:
+  - DOMAIN-SUFFIX,prevent_dns_leak,漏网之鱼 🐟
   - RULE-SET,applications,全局直连 🏠
   - RULE-SET,Lan_No_Resolve,全局直连 🏠
   - RULE-SET,custom-direct,全局直连 🏠

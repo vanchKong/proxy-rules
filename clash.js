@@ -65,6 +65,14 @@ const ruleProviderCommon = {
 }
 // 规则集配置
 const ruleProviders = {
+	// DNS 泄露  ******************************************************
+	'prevent_dns_leak': {
+		...ruleProviderCommon,
+		format: 'text',
+		behavior: 'domain',
+		url: 'https://cdn.jsdelivr.net/gh/xishang0128/rules@main/clash%20or%20stash/prevent_dns_leak/prevent_dns_leak_domain.list',
+		path: './ruleset/prevent_dns_leak_domain.yaml',
+	},
 	// 去广告 ---------------------------------------------------------
 	'AdvertisingLite_Domain': {
 		...ruleProviderCommon,
@@ -263,6 +271,7 @@ const ruleProviders = {
 
 // 规则
 const rules = [
+	'RULE-SET,prevent_dns_leak,漏网之鱼 🐟',
 	'RULE-SET,applications,全局直连 🏠',
 	'RULE-SET,Lan_No_Resolve,全局直连 🏠',
 	'RULE-SET,custom-direct,全局直连 🏠',
@@ -293,6 +302,7 @@ const rules = [
 	'RULE-SET,ChinaMax_IP,全局直连 🏠,no-resolve',
 	'MATCH,漏网之鱼 🐟',
 ]
+
 // 代理组通用配置
 const groupBaseOption = {
 	'interval': 300,

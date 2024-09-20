@@ -344,6 +344,7 @@ rules:
   - RULE-SET,applications,全局直连 🏠
   - RULE-SET,Lan_No_Resolve,全局直连 🏠
   - RULE-SET,custom-direct,全局直连 🏠
+  - RULE-SET,custom-proxy,地区选择 🌍
   - RULE-SET,AdvertisingLite_Domain,全局拦截 🚧
   - RULE-SET,Microsoft_No_Resolve,微软服务 Ⓜ️
   - RULE-SET,Apple_No_Resolve,苹果服务 🍎
@@ -365,7 +366,6 @@ rules:
   - RULE-SET,YouTubeMusic,谷歌服务 🇺🇸
   - RULE-SET,Github,地区选择 🌍
   - RULE-SET,geolocation-!cn,地区选择 🌍
-  - RULE-SET,custom-proxy,地区选择 🌍
   - RULE-SET,ChinaMax_Domain,全局直连 🏠
   - RULE-SET,ChinaMax_IP,全局直连 🏠,no-resolve
   - MATCH,漏网之鱼 🐟

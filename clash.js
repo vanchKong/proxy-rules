@@ -239,6 +239,13 @@ const ruleProviders = {
 		url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml',
 		path: './ruleset/GitHub.yaml',
 	},
+	// Discord ---------------------------------------------------------
+	// 'Discord': {
+	// 	...ruleProviderCommon,
+	// 	behavior: 'classical',
+	// 	url: 'https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Discord/Discord.yaml',
+	// 	path: './ruleset/Discord.yaml',
+	// },
 	// 自定义 ******************************************************
 	'custom-proxy': {
 		...ruleProviderCommon,
@@ -259,6 +266,7 @@ const rules = [
 	'RULE-SET,applications,全局直连 🏠',
 	'RULE-SET,Lan_No_Resolve,全局直连 🏠',
 	'RULE-SET,custom-direct,全局直连 🏠',
+	'RULE-SET,custom-proxy,地区选择 🌍',
 	'RULE-SET,AdvertisingLite_Domain,全局拦截 🚧',
 	'RULE-SET,Microsoft_No_Resolve,微软服务 Ⓜ️',
 	'RULE-SET,Apple_No_Resolve,苹果服务 🍎',
@@ -281,7 +289,6 @@ const rules = [
 	'RULE-SET,YouTubeMusic,谷歌服务 🇺🇸',
 	'RULE-SET,Github,地区选择 🌍',
 	'RULE-SET,geolocation-!cn,地区选择 🌍',
-	'RULE-SET,custom-proxy,地区选择 🌍',
 	'RULE-SET,ChinaMax_Domain,全局直连 🏠',
 	'RULE-SET,ChinaMax_IP,全局直连 🏠,no-resolve',
 	'MATCH,漏网之鱼 🐟',
@@ -399,7 +406,8 @@ function main(config) {
 
 	const allProxy = []
 	const unpopularProxy = []
-	const rep = /剩|到|重|防|电报|群组|频道|公益|付费|United States|America|USA|US|🇺🇸|美国|SG|🇸🇬|新加坡|Singapore|JP|🇯🇵|日本|Japan|港|HK|Hong Kong|HongKong|🇭🇰|台|台湾|TAIWAN|TW|TAI WAN|🇹🇼|韩国|KR|Korea|KOR|🇰🇷/i
+	const rep =
+		/剩|到|重|防|电报|群组|频道|公益|付费|United States|America|USA|US|🇺🇸|美国|SG|🇸🇬|新加坡|Singapore|JP|🇯🇵|日本|Japan|港|HK|Hong Kong|HongKong|🇭🇰|台|台湾|TAIWAN|TW|TAI WAN|🇹🇼|韩国|KR|Korea|KOR|🇰🇷/i
 	sortedAllProxy.forEach((item) => {
 		allProxy.push(item['name'])
 		if (!rep.test(item['name'])) {

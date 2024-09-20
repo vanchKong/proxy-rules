@@ -407,7 +407,7 @@ function main(config) {
 	const allProxy = []
 	const unpopularProxy = []
 	const rep =
-		/剩|到|重|防|电报|群组|频道|公益|付费|United States|America|USA|US|🇺🇸|美国|SG|🇸🇬|新加坡|Singapore|JP|🇯🇵|日本|Japan|港|HK|Hong Kong|HongKong|🇭🇰|台|台湾|TAIWAN|TW|TAI WAN|🇹🇼|韩国|KR|Korea|KOR|🇰🇷/i
+		/剩|到|重|防|电报|群组|频道|维护|付费|官|更新|United States|America|USA|US|🇺🇸|美国|SG|🇸🇬|新加坡|Singapore|JP|🇯🇵|日本|Japan|港|HK|Hong Kong|HongKong|🇭🇰|台|台湾|TAIWAN|TW|TAI WAN|🇹🇼|韩国|KR|Korea|KOR|🇰🇷/i
 	sortedAllProxy.forEach((item) => {
 		allProxy.push(item['name'])
 		if (!rep.test(item['name'])) {

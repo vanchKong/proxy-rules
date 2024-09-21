@@ -376,4 +376,5 @@ rules:
   - RULE-SET,geolocation-!cn,地区选择 🌍
   - RULE-SET,ChinaMax_Domain,全局直连 🏠
   - RULE-SET,ChinaMax_IP,全局直连 🏠,no-resolve
+  - GEOIP,cn,全局直连 🏠,no-resolve
   - MATCH,漏网之鱼 🐟

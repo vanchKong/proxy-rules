@@ -20,7 +20,7 @@ jobs:
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           # 下载*rules.*文件
           mkdir publish
-          for file in $(find $pwd -name "*rules.*" | xargs ls -d); do 
+          for file in $(find $pwd -name "*rules\.*" | xargs ls -d); do 
             curl -sSL -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
              "https://raw.githubusercontent.com/$GITHUB_REPOSITORY/main/${file#*./}" \
              > "./publish/${file#*./}"

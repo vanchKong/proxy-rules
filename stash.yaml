@@ -93,7 +93,7 @@ proxy-groups:
 
   - name: 苹果服务 🍎
     <<: *p
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_1.png
     type: select
     proxies: [全局直连 🏠, 地区选择 🌍, 手动选择 👌]
 
@@ -109,7 +109,7 @@ proxy-groups:
     <<: *p
     url: http://wifi.vivo.com.cn/generate_204
     hidden: true
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Advertising.png
     type: select
     proxies: [REJECT, DIRECT]
 

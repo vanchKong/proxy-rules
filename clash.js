@@ -526,7 +526,7 @@ function main(config) {
 			name: '苹果服务 🍎',
 			type: 'select',
 			proxies: ['全局直连 🏠', '地区选择 🌍', '手动选择 👌'],
-			icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png',
+			icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_1.png',
 		},
 		// 全局直连 🏠
 		{
@@ -545,7 +545,7 @@ function main(config) {
 			type: 'select',
 			proxies: ['REJECT', 'DIRECT'],
 			url: 'http://wifi.vivo.com.cn/generate_204',
-			icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png',
+			icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Advertising.png',
 			hidden: true,
 		},
 		// 漏网之鱼 🐟

@@ -459,7 +459,7 @@ function main(config) {
 			...groupBaseOption,
 			name: '人工智能 🤖',
 			type: 'select',
-			proxies: ['日本节点 🇯🇵', '美国节点 🇺🇸', '地区选择 🌍', '手动选择 👌'],
+			proxies: ['日本节点 🇯🇵', '美国节点 🇺🇸', '新加坡节点 🇸🇬', '地区选择 🌍', '手动选择 👌'],
 			filter: 'US|🇺🇸|美国|United States|TW|🇹🇼|台湾',
 			icon: 'https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bot.png',
 		},

@@ -129,6 +129,7 @@ proxy-groups:
   - name: 自动选择 📡
     <<: *p
     hidden: true
+    filter: ^(?!.*(?i)(剩|到|重|防|电报|群组|频道|维护|付费|官|更新)).*$
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
     type: url-test
     include-all: true

@@ -306,7 +306,7 @@ const rules = [
 // 代理组通用配置
 const groupBaseOption = {
 	'interval': 300,
-	'tolerance': 200,
+	'tolerance': 100,
 	'timeout': 3000,
 	'url': 'https://www.google.com/generate_204',
 	'lazy': true,
@@ -416,11 +416,15 @@ function main(config) {
 
 	const allProxy = []
 	const unpopularProxy = []
-	const rep =
+	const repColde =
 		/剩|到|重|防|电报|群组|频道|维护|付费|官|更新|United States|America|USA|US|🇺🇸|美国|SG|🇸🇬|新加坡|Singapore|JP|🇯🇵|日本|Japan|港|HK|Hong Kong|HongKong|🇭🇰|台|TAIWAN|TW|TAI WAN|🇹🇼|韩国|KR|Korea|KOR|🇰🇷/i
+		const repAll = /剩|到|重|防|电报|群组|频道|维护|付费|官|更新/i
 	sortedAllProxy.forEach((item) => {
-		allProxy.push(item['name'])
-		if (!rep.test(item['name'])) {
+		if (!repAll.test(item['name'])) {
+			console.log(item['name'])
+			allProxy.push(item['name'])
+		}
+		if (!repColde.test(item['name'])) {
 			unpopularProxy.push(item['name'])
 		}
 	})

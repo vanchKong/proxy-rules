@@ -21,7 +21,7 @@ proxy-providers:
 
 proxy-groups-config: &p
   interval: 300
-  tolerance: 200
+  tolerance: 100
   timeout: 3000
   url: https://www.google.com/generate_204
   lazy: true

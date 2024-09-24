@@ -39,7 +39,7 @@ proxy-groups:
     <<: *p
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/World_Map.png
     type: select
-    filter: ^(?!.*(?i)(剩|到|重|防|电报|群组|频道|维护|付费|官|更新|港|HK|Hong Kong|HongKong|🇭🇰|台|台湾|TAIWAN|TW|TAI WAN|🇹🇼|日本|JP|Japan|🇯🇵|韩国|KR|Korea|KOR|🇰🇷|新加坡|SG|Singapore|🇸🇬|美国|US|USA|United States|America|🇺🇸)).*$
+    filter: ^(?!.*(?i)(剩|到|重|防|电报|群组|频道|维护|付费|官|更新|港|HK|Hong Kong|HongKong|🇭🇰|台|TAIWAN|TW|TAI WAN|🇹🇼|日本|JP|Japan|🇯🇵|韩国|KR|Korea|KOR|🇰🇷|新加坡|SG|Singapore|🇸🇬|美国|US|USA|United States|America|🇺🇸)).*$
     include-all: true
 
   - name: 手动选择 👌
@@ -144,7 +144,7 @@ proxy-groups:
   - name: 台湾节点 🇨🇳
     <<: *p
     hidden: true
-    filter: (?i)台|台湾|TAIWAN|TW|TAI WAN|🇹🇼
+    filter: (?i)台|TAIWAN|TW|TAI WAN|🇹🇼
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     type: url-test
     include-all: true

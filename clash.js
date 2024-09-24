@@ -6,7 +6,7 @@
 // |LB|🇱🇧|LC|🇱🇨|LI|🇱🇮|LK|🇱🇰|LR|🇱🇷|LS|🇱🇸|LT|🇱🇹|LU|🇱🇺|LV|🇱🇻|LY|🇱🇾|MA|🇲🇦|MC|🇲🇨|MD|🇲🇩|ME|🇲🇪|MG|🇲🇬|MH|🇲🇭|MK|🇲🇰|ML|🇲🇱|MM|🇲🇲|缅甸|MN|🇲🇳|MO|🇲🇴|澳门|MR|🇲🇷|MT|🇲🇹|MU|🇲🇺|MV|🇲🇻|MW|🇲🇼|MX|🇲🇽
 // |MY|🇲🇾|马来西亚|MZ|🇲🇿|NA|🇳🇦|NE|🇳🇪|NG|🇳🇬|尼日利亚|NI|🇳🇮|NL|🇳🇱|荷兰|NO|🇳🇴|NP|🇳🇵|NR|🇳🇷|NZ|🇳🇿|OM|🇴🇲|PA|🇵🇦|PE|🇵🇪|PG|🇵🇬|PH|🇵🇭|PK|🇵🇰|巴基斯坦|PL|🇵🇱|PS|🇵🇸|PT|🇵🇹|PW|🇵🇼|PY|🇵🇾|QA|🇶🇦|RO|🇷🇴|RS|🇷🇸
 // |RUS|🇷🇺|俄罗斯|RW|🇷🇼|SA|🇸🇦|SB|🇸🇧|SC|🇸🇨|SD|🇸🇩|SE|🇸🇪|SG|🇸🇬|新加坡|Singapore|SI|🇸🇮|SK|🇸🇰|SL|🇸🇱|SM|🇸🇲|SN|🇸🇳|SO|🇸🇴|SR|🇸🇷|SS|🇸🇸|ST|🇸🇹|SV|🇸🇻|SZ|🇸🇿|TD|🇹🇩|TG|🇹🇬|TH|🇹🇭|泰国|TJ|🇹🇯|TL|🇹🇱|TM|🇹🇲|TN|🇹🇳|TO|🇹🇴
-// |TR|🇹🇷|土耳其|TT|🇹🇹|TV|🇹🇻|台|台湾|TAIWAN|TW|TAI WAN|🇹🇼|TZ|🇹🇿|UA|🇺🇦|乌克兰|UG|🇺🇬|United States|America|USA|US|🇺🇸|美国|UY|🇺🇾|UZ|🇺🇿|VA|🇻🇦|VC|🇻🇨|VN|🇻🇳|越南|VU|🇻🇺|WS|🇼🇸|YE|🇾🇪|ZA|🇿🇦|ZM|🇿🇲|ZW|🇿🇼',
+// |TR|🇹🇷|土耳其|TT|🇹🇹|TV|🇹🇻|台|TAIWAN|TW|TAI WAN|🇹🇼|TZ|🇹🇿|UA|🇺🇦|乌克兰|UG|🇺🇬|United States|America|USA|US|🇺🇸|美国|UY|🇺🇾|UZ|🇺🇿|VA|🇻🇦|VC|🇻🇨|VN|🇻🇳|越南|VU|🇻🇺|WS|🇼🇸|YE|🇾🇪|ZA|🇿🇦|ZM|🇿🇲|ZW|🇿🇼',
 
 // https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.yaml
 // https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml
@@ -417,7 +417,7 @@ function main(config) {
 	const allProxy = []
 	const unpopularProxy = []
 	const rep =
-		/剩|到|重|防|电报|群组|频道|维护|付费|官|更新|United States|America|USA|US|🇺🇸|美国|SG|🇸🇬|新加坡|Singapore|JP|🇯🇵|日本|Japan|港|HK|Hong Kong|HongKong|🇭🇰|台|台湾|TAIWAN|TW|TAI WAN|🇹🇼|韩国|KR|Korea|KOR|🇰🇷/i
+		/剩|到|重|防|电报|群组|频道|维护|付费|官|更新|United States|America|USA|US|🇺🇸|美国|SG|🇸🇬|新加坡|Singapore|JP|🇯🇵|日本|Japan|港|HK|Hong Kong|HongKong|🇭🇰|台|TAIWAN|TW|TAI WAN|🇹🇼|韩国|KR|Korea|KOR|🇰🇷/i
 	sortedAllProxy.forEach((item) => {
 		allProxy.push(item['name'])
 		if (!rep.test(item['name'])) {
@@ -588,7 +588,7 @@ function main(config) {
 			...groupBaseOption,
 			'name': '台湾节点 🇨🇳',
 			'type': 'url-test',
-			'filter': '(?i)台|台湾|TAIWAN|TW|TAI WAN|🇹🇼',
+			'filter': '(?i)台|TAIWAN|TW|TAI WAN|🇹🇼',
 			'include-all': true,
 			'icon': 'https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png',
 			'hidden': true,

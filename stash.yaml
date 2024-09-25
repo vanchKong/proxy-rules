@@ -16,8 +16,13 @@ dns:
 # > 远程服务器
 proxy-providers:
   Subscribe:
+    type: http
     interval: 3600
     url: http://your-service-provider
+    health-check:
+      enable: true
+      url: https://www.google.com/generate_204
+      interval: 6
 
 proxy-groups-config: &p
   interval: 300

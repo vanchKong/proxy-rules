@@ -202,7 +202,6 @@ rule-providers:
     format: text
     behavior: domain
     url: https://cdn.jsdelivr.net/gh/xishang0128/rules@main/clash%20or%20stash/prevent_dns_leak/prevent_dns_leak_domain.list
-    path: ./ruleset/prevent_dns_leak_domain.yaml
 
   # 去广告 ---------------------------------------------------------
   AdvertisingLite_Domain:

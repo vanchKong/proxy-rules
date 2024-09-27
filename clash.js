@@ -419,8 +419,8 @@ function main(config) {
 	const allProxy = []
 	const unpopularProxy = []
 	const repColde =
-		/剩|到|重|防|电报|群组|频道|维护|付费|官|更新|United States|America|USA|US|🇺🇸|美国|SG|🇸🇬|新加坡|Singapore|JP|🇯🇵|日本|Japan|港|HK|Hong Kong|HongKong|🇭🇰|台|TAIWAN|TW|TAI WAN|🇹🇼|韩国|KR|Korea|KOR|🇰🇷/i
-	const repAll = /剩|到|重|防|电报|群组|频道|维护|付费|官|更新/i
+		/剩|流|ISP|到|重|防|电报|群组|频道|维护|付费|官|更新|United States|America|USA|US|🇺🇸|美国|SG|🇸🇬|新加坡|Singapore|JP|🇯🇵|日本|Japan|港|HK|Hong Kong|HongKong|🇭🇰|台|TAIWAN|TW|TAI WAN|🇹🇼|韩国|KR|Korea|KOR|🇰🇷/i
+	const repAll = /剩|流|ISP|到|重|防|电报|群组|频道|维护|付费|官|更新/i
 	sortedAllProxy.forEach((item) => {
 		if (!repAll.test(item['name'])) {
 			console.log(item['name'])

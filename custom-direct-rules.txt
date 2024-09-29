@@ -4,3 +4,4 @@ payload:
   - DOMAIN-SUFFIX,dmzshequ.com
   - DOMAIN-KEYWORD,xfltd
   - DOMAIN-SUFFIX,uniss.me
+  - PROCESS-NAME,LeagueClient.exe

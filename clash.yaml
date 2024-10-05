@@ -92,7 +92,7 @@ FilterCold: &FilterCold '^(?!.*(?i)(剩|流|ISP|到|重|防|电报|群组|频道
 FilterAll: &FilterAll '^(?!.*(?i)(剩|流|ISP|到|重|防|电报|群组|频道|维护|付费|官|更新)).*$'
 FilterInfo: &FilterInfo '(?i)(剩|流|ISP|到|重|防|电报|群组|频道|维护|付费|官|更新)'
 
-proxyGroupsConfig: &p { interval: 300, tolerance: 100, timeout: 3000, url: 'https://www.google.com/generate_204', lazy: true, max-failed-times: 2, hidden: false }
+proxyGroupsConfig: &p { interval: 300, tolerance: 100, timeout: 3000, url: 'https://www.google.com/generate_204', lazy: true, max-failed-times: 2, hidden: false, proxy: Providers }
 
 proxy-groups:
   - {
@@ -179,6 +179,7 @@ proxy-groups:
       proxies: [REJECT, DIRECT],
     }
   - { name: 漏网之鱼 🐟, <<: *p, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png, type: select, proxies: [地区选择 🌍, 手动选择 👌, 全局直连 🏠] }
+  - { name: Providers, <<: *p, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png, type: select, proxies: [全局直连 🏠, 自动选择 📡] }
   - { name: 流量信息, <<: *p, type: select, filter: *FilterInfo, include-all: true, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/VIP.png }
   # - {
   #     name: GLOBAL,

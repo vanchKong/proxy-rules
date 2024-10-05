@@ -1,0 +1,495 @@
+port: 7890
+socks-port: 7891
+mixed-port: 7892
+redir-port: 7893
+tproxy-port: 7894
+
+unified-delay: true
+geodata-mode: false
+geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 24
+tcp-concurrent: true
+find-process-mode: strict
+global-client-fingerprint: chrome
+
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: true
+udp: true
+
+external-controller: 0.0.0.0:9090
+
+# geox-url:
+#   geoip: 'https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geoip.dat'
+#   geosite: 'https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/geosite.dat'
+#   mmdb: 'https://gitlab.com/Masaiki/GeoIP2-CN/-/raw/release/Country.mmdb'
+#   asn: 'https://gitlab.com/Loon0x00/loon_data/-/raw/main/geo/GeoLite2-ASN.mmdb'
+
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  force-domain:
+    - +.v2ex.com
+
+  skip-domain:
+    - Mijia Cloud
+
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+    - any:53
+  auto-route: true
+  auto-detect-interface: true
+
+dns:
+  enable: true
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.1/8
+  # fake ip 白名单列表'以下地址不会下发fakeip映射用于连接
+  fake-ip-filter: ['+.lan', '*', '+.local', '+.vanch.fun', '+.ipw.cn']
+  # 解析非 IP 的 dns 用的 dns 服务器,只支持纯 IP
+  default-nameserver: [223.5.5.5, 2400:3200::1, 119.29.29.29, 2402:4e00::]
+  # 默认的域名解析服务器
+  nameserver: [https://dns.aliyun.com/dns-query, https://doh.pub/dns-query, https://120.53.53.53/dns-query]
+
+# > 订阅信息展示
+# subscribe-url:
+
+# 锚点 - 节点订阅的参数 [每小时更新一次订阅节点，每 6 秒一次健康检查]
+NodeParam: &NodeParam { type: http, interval: 3600, proxy: Provider 🍕, health-check: { enable: true, url: 'https://www.google.com/generate_204', interval: 6 } }
+
+proxy-providers:
+  # Academy City Airport:
+  #   <<: *NodeParam
+  #   url: https://dadada.acaisbest.com/api/v1/client/subscribe?token=ba05b65081f19c2ecdca12128a9f010b
+  # 宝可梦:
+  #   <<: *NodeParam
+  #   url: https://link02.pikachucloud.site/api/v1/client/subscribe?token=e5a404b4733244aa8268e9322085cc68
+  # TNT:
+  #   <<: *NodeParam
+  #   url: https://hj0508.xn--wqr30o34q.xn--io0a7i/link/gBfebSQ94cp08B2T?clash=1
+  # 飞鸟云:
+  #   <<: *NodeParam
+  #   url: 'https://x3.135235.xyz/api/v1/client/subscribe?token=340e3ee856874a49ed4937e65cea190e'
+  # CF机场:
+  #   <<: *NodeParam
+  #   url: https://v2.chatpro.icu/api/v1/client/subscribe?token=6115a1a4a67704e9097614578f3ddd1a
+  # iKuuu:
+  #   <<: *NodeParam
+  #   url: https://k4pry.no-mad-world.club/link/OQieDiqaFmOnHDYk?clash=3&extend=1
+  # 杰云:
+  #   <<: *NodeParam
+  #   url: https://study.jaycloud11111.top/study?token=e7ec8078d9bef1f97efe842bf64c7597
+  # XFLTD:
+  #   <<: *NodeParam
+  #   url: https://nsaporole.phantasy.life/cctv/user/client/get?token=4949ad8de1f7936d7e538bfd389e3d1c
+  # 养老机场:
+  #   <<: *NodeParam
+  #   url: https://8b2e2544-a8c7-4669-8f58-d6f96c0c9d3e.xn--l6qx3lcvp58x.com/api/v1/client/subscribe?token=5c53b0ea501d9ab1da2abccfbb96b2f6
+  # XSUS:
+  #   <<: *NodeParam
+  #   url: https://xsus.men/api/v1/client/subscribe?token=eb8cdc9579ed3bf0a791f69bba4aec17
+  # 雷霆多:
+  #   <<: *NodeParam
+  #   url: https://nn8qozmu.nn8qozmu.top/api/v1/client/subscribe?token=13dd5c67a4af5b23416af77f3f95cb36
+  # 雷霆少:
+  #   <<: *NodeParam
+  #   url: https://nn8qozmu.nn8qozmu.top/api/v1/client/subscribe?token=2f91af4e183ea7a821de843028110be3
+  # 萌物云:
+  #   <<: *NodeParam
+  #   url: https://sub.domiw.com/api/v1/client/subscribe?token=d94f2c8e78c93634b53418700eb2e061
+  赔钱机场:
+    <<: *NodeParam
+    url: https://pqjc.site/api/v1/client/subscribe?token=31f2e96d4923fc4697ee25841edbf967
+  # FreeApp:
+  #   <<: *NodeParam
+  #   url: https://xb.freeapp.buzz/api/v1/client/subscribe?token=6be9c812016383cb7f93c943bf76ab69
+  # 冲上云霄:
+  #   <<: *NodeParam
+  #   url:   https://cpdd.one/sub?token=f06ff916fa6329a65b2c66c06613a86f
+
+# 锚点 - 节点筛选组
+FilterHK: &FilterHK '(?i)港|HK|Hong Kong|HongKong|🇭🇰'
+FilterTW: &FilterTW '(?i)台|TAIWAN|TW|TAI WAN|🇹🇼'
+FilterJP: &FilterJP '(?i)JP|🇯🇵|日本|Japan'
+FilterKR: &FilterKR '(?i)韩国|KR|Korea|KOR|🇰🇷'
+FilterSG: &FilterSG '(?i)SG|🇸🇬|新加坡|Singapore'
+FilterUS: &FilterUS '(?i)United States|America|USA|US|🇺🇸|美国'
+FilterCold: &FilterCold '^(?!.*(?i)(剩|流|ISP|到|重|防|电报|群组|频道|维护|付费|官|更新|港|HK|Hong Kong|HongKong|🇭🇰|台|TAIWAN|TW|TAI WAN|🇹🇼|日本|JP|Japan|🇯🇵|韩国|KR|Korea|KOR|🇰🇷|新加坡|SG|Singapore|🇸🇬|美国|US|USA|United States|America|🇺🇸)).*$'
+FilterAll: &FilterAll '^(?!.*(?i)(剩|流|ISP|到|重|防|电报|群组|频道|维护|付费|官|更新)).*$'
+FilterInfo: &FilterInfo '(?i)(剩|流|ISP|到|重|防|电报|群组|频道|维护|付费|官|更新)'
+
+proxyGroupsConfig: &p { interval: 300, tolerance: 100, timeout: 3000, url: 'https://www.google.com/generate_204', lazy: true, max-failed-times: 2, hidden: false }
+
+proxy-groups:
+  - {
+      name: 地区选择 🌍,
+      <<: *p,
+      type: select,
+      proxies: [自动选择 📡, 手动选择 👌, 香港节点 🇭🇰, 日本节点 🇯🇵, 美国节点 🇺🇸, 台湾节点 🇨🇳, 新加坡节点 🇸🇬, 韩国节点 🇰🇷, 冷门地区 ❄️, 全局直连 🏠],
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Area.png,
+    }
+  - { name: 冷门地区 ❄️, <<: *p, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/World_Map.png, type: select, filter: *FilterCold, include-all: true }
+  - { name: 手动选择 👌, <<: *p, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Available.png, type: select, filter: *FilterAll, include-all: true }
+  - {
+      name: 人工智能 🤖,
+      <<: *p,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bot.png,
+      type: select,
+      proxies: [日本节点 🇯🇵, 美国节点 🇺🇸, 新加坡节点 🇸🇬, 地区选择 🌍, 手动选择 👌],
+    }
+  - {
+      name: 巴哈姆特 📺,
+      <<: *p,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png,
+      type: select,
+      proxies: [台湾节点 🇨🇳, 地区选择 🌍, 手动选择 👌, 全局直连 🏠],
+    }
+  - {
+      name: 谷歌服务 🇺🇸,
+      <<: *p,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png,
+      type: select,
+      proxies: [地区选择 🌍, 手动选择 👌, 香港节点 🇭🇰, 日本节点 🇯🇵, 美国节点 🇺🇸, 台湾节点 🇨🇳, 新加坡节点 🇸🇬, 韩国节点 🇰🇷, 冷门地区 ❄️],
+    }
+  - {
+      name: 蒸汽平台 🎮,
+      <<: *p,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Steam.png,
+      type: select,
+      proxies: [地区选择 🌍, 手动选择 👌, 香港节点 🇭🇰, 日本节点 🇯🇵, 美国节点 🇺🇸, 台湾节点 🇨🇳, 新加坡节点 🇸🇬, 韩国节点 🇰🇷, 冷门地区 ❄️],
+    }
+  - {
+      name: 奈飞服务 📺,
+      <<: *p,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png,
+      type: select,
+      proxies: [地区选择 🌍, 手动选择 👌, 香港节点 🇭🇰, 日本节点 🇯🇵, 美国节点 🇺🇸, 台湾节点 🇨🇳, 新加坡节点 🇸🇬, 韩国节点 🇰🇷, 冷门地区 ❄️],
+    }
+  - {
+      name: 电报服务 💬,
+      <<: *p,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png,
+      type: select,
+      proxies: [地区选择 🌍, 手动选择 👌, 香港节点 🇭🇰, 日本节点 🇯🇵, 美国节点 🇺🇸, 台湾节点 🇨🇳, 新加坡节点 🇸🇬, 韩国节点 🇰🇷, 冷门地区 ❄️],
+    }
+  - {
+      name: 微软服务 Ⓜ️,
+      <<: *p,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png,
+      type: select,
+      proxies: [全局直连 🏠, 地区选择 🌍, 手动选择 👌],
+    }
+  - {
+      name: 苹果服务 🍎,
+      <<: *p,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple_1.png,
+      type: select,
+      proxies: [全局直连 🏠, 地区选择 🌍, 手动选择 👌],
+    }
+  - {
+      name: 全局直连 🏠,
+      <<: *p,
+      url: http://wifi.vivo.com.cn/generate_204,
+      hidden: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png,
+      type: select,
+      proxies: [DIRECT, REJECT],
+    }
+  - {
+      name: 全局拦截 🚧,
+      <<: *p,
+      url: http://wifi.vivo.com.cn/generate_204,
+      hidden: true,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Advertising.png,
+      type: select,
+      proxies: [REJECT, DIRECT],
+    }
+  - { name: 漏网之鱼 🐟, <<: *p, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png, type: select, proxies: [地区选择 🌍, 手动选择 👌, 全局直连 🏠] }
+  - { name: Provider 🍕, <<: *p, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Puzzle.png, type: select, proxies: [全局直连 🏠, 自动选择 📡] }
+  - { name: 流量信息, <<: *p, type: select, filter: *FilterInfo, include-all: true, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/VIP.png }
+  # - {
+  #     name: GLOBAL,
+  #     <<: *p,
+  #     hidden: true,
+  #     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png,
+  #     type: select,
+  #     proxies: [地区选择 🌍, 手动选择 👌, 全局直连 🏠],
+  #   }
+  - {
+      name: 自动选择 📡,
+      <<: *p,
+      hidden: true,
+      filter: *FilterAll,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png,
+      type: url-test,
+      include-all: true,
+    }
+  - {
+      name: 香港节点 🇭🇰,
+      <<: *p,
+      hidden: true,
+      filter: *FilterHK,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png,
+      type: url-test,
+      include-all: true,
+    }
+  - {
+      name: 台湾节点 🇨🇳,
+      <<: *p,
+      hidden: true,
+      filter: *FilterTW,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png,
+      type: url-test,
+      include-all: true,
+    }
+  - {
+      name: 美国节点 🇺🇸,
+      <<: *p,
+      hidden: true,
+      filter: *FilterUS,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png,
+      type: url-test,
+      include-all: true,
+    }
+  - {
+      name: 日本节点 🇯🇵,
+      <<: *p,
+      hidden: true,
+      filter: *FilterJP,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png,
+      type: url-test,
+      include-all: true,
+    }
+  - {
+      name: 新加坡节点 🇸🇬,
+      <<: *p,
+      hidden: true,
+      filter: *FilterSG,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png,
+      type: url-test,
+      include-all: true,
+    }
+  - {
+      name: 韩国节点 🇰🇷,
+      <<: *p,
+      hidden: true,
+      filter: *FilterKR,
+      icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png,
+      type: url-test,
+      include-all: true,
+    }
+rule-providers-config: &r
+  type: http
+  format: yaml
+  interval: 86400
+
+rule-providers:
+  prevent_dns_leak:
+    <<: *r
+    format: text
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/xishang0128/rules@main/clash%20or%20stash/prevent_dns_leak/prevent_dns_leak_domain.list
+
+  # 去广告 ---------------------------------------------------------
+  AdvertisingLite_Domain:
+    <<: *r
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml
+
+  # 巴哈姆特 ------------------------------------------------------------
+  Bahamut:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bahamut/Bahamut.yaml
+
+  #  Netflix ------------------------------------------------------------
+  Netflix:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.yaml
+
+  Netflix_IP:
+    <<: *r
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix_IP.yaml
+
+  # AI ------------------------------------------------------------
+  Gemini:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Gemini/Gemini.yaml
+
+  Copilot:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Copilot/Copilot.yaml
+
+  Claude:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Claude/Claude.yaml
+
+  BardAI:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BardAI/BardAI.yaml
+
+  OpenAI:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OpenAI/OpenAI.yaml
+
+  # 大陆域名、IP --------------------------------------------------------
+  ChinaMax_Domain:
+    <<: *r
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_Domain.yaml
+
+  ChinaMax_IP:
+    <<: *r
+    behavior: ipcidr
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMax/ChinaMax_IP.yaml
+
+  # 谷歌ip ******************************************************
+  GoogleIP:
+    <<: *r
+    behavior: ipcidr
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.yaml
+
+  # 谷歌域名 --------------------------------------------------------
+  Google:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml
+
+  # YouTube域名 --------------------------------------------------------
+  YouTube:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
+
+  YouTubeMusic:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTubeMusic/YouTubeMusic.yaml
+
+  # 非大陆域名 ******************************************************
+  geolocation-!cn:
+    <<: *r
+    behavior: domain
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.yaml
+
+  # 电报域名 -------------------------------------------------------
+  Telegram:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml
+
+  # Steam ---------------------------------------------------------
+  Steam:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml
+
+  #  SteamCN ---------------------------------------------------------
+  SteamCN_No_Resolve:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/SteamCN/SteamCN_No_Resolve.yaml
+
+  #  Apple ---------------------------------------------------------
+  Apple_No_Resolve:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_No_Resolve.yaml
+
+  Apple_Domain:
+    <<: *r
+    behavior: domain
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple_Domain.yaml
+
+  # Microsoft ---------------------------------------------------------
+  Microsoft_No_Resolve:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft_No_Resolve.yaml
+
+  # 局域网 ---------------------------------------------------------
+  Lan_No_Resolve:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan_No_Resolve.yaml
+
+  #  applications ******************************************************
+  applications:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/vanchkong/proxy-rules@release/applications-rules.txt
+
+  # Github ---------------------------------------------------------
+  Github:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml
+
+  # 自定义 ******************************************************
+  custom-proxy:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/vanchkong/proxy-rules@release/custom-proxy-rules.txt
+
+  custom-direct:
+    <<: *r
+    behavior: classical
+    url: https://cdn.jsdelivr.net/gh/vanchkong/proxy-rules@release/custom-direct-rules.txt
+
+rules:
+  - DOMAIN-SUFFIX,prevent_dns_leak,漏网之鱼 🐟
+  - RULE-SET,applications,全局直连 🏠
+  - RULE-SET,Lan_No_Resolve,全局直连 🏠
+  - RULE-SET,custom-direct,全局直连 🏠
+  - RULE-SET,custom-proxy,地区选择 🌍
+  - RULE-SET,AdvertisingLite_Domain,全局拦截 🚧
+  - RULE-SET,Microsoft_No_Resolve,微软服务 Ⓜ️
+  - RULE-SET,Apple_No_Resolve,苹果服务 🍎
+  - RULE-SET,Apple_Domain,苹果服务 🍎
+  - RULE-SET,SteamCN_No_Resolve,全局直连 🏠
+  - RULE-SET,Steam,蒸汽平台 🎮
+  - RULE-SET,Bahamut,巴哈姆特 📺
+  - RULE-SET,Netflix,奈飞服务 📺
+  - RULE-SET,Netflix_IP,奈飞服务 📺
+  - RULE-SET,Gemini,人工智能 🤖
+  - RULE-SET,Copilot,人工智能 🤖
+  - RULE-SET,Claude,人工智能 🤖
+  - RULE-SET,BardAI,人工智能 🤖
+  - RULE-SET,OpenAI,人工智能 🤖
+  - RULE-SET,Telegram,电报服务 💬
+  - RULE-SET,Google,谷歌服务 🇺🇸
+  - RULE-SET,GoogleIP,谷歌服务 🇺🇸
+  - RULE-SET,YouTube,谷歌服务 🇺🇸
+  - RULE-SET,YouTubeMusic,谷歌服务 🇺🇸
+  - RULE-SET,Github,地区选择 🌍
+  - RULE-SET,geolocation-!cn,地区选择 🌍
+  - RULE-SET,ChinaMax_Domain,全局直连 🏠
+  - RULE-SET,ChinaMax_IP,全局直连 🏠,no-resolve
+  - GEOIP,cn,全局直连 🏠,no-resolve
+  - MATCH,漏网之鱼 🐟

@@ -74,7 +74,7 @@ dns:
 # subscribe-url:
 
 # 锚点 - 节点订阅的参数 [每小时更新一次订阅节点，每 6 秒一次健康检查]
-NodeParam: &NodeParam { type: http, interval: 3600, proxy: Providers, health-check: { enable: true, url: 'https://www.google.com/generate_204', interval: 6 } }
+NodeParam: &NodeParam { type: http, interval: 3600, proxy: Provider 🍕, health-check: { enable: true, url: 'https://www.google.com/generate_204', interval: 6 } }
 
 proxy-providers:
   # 订阅名:
@@ -179,7 +179,7 @@ proxy-groups:
       proxies: [REJECT, DIRECT],
     }
   - { name: 漏网之鱼 🐟, <<: *p, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png, type: select, proxies: [地区选择 🌍, 手动选择 👌, 全局直连 🏠] }
-  - { name: Provide 🍕, <<: *p, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Puzzle.png, type: select, proxies: [全局直连 🏠, 自动选择 📡] }
+  - { name: Provider 🍕, <<: *p, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Puzzle.png, type: select, proxies: [全局直连 🏠, 自动选择 📡] }
   - { name: 流量信息, <<: *p, type: select, filter: *FilterInfo, include-all: true, icon: https://fastly.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/VIP.png }
   # - {
   #     name: GLOBAL,

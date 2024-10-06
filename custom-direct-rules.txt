@@ -4,3 +4,6 @@ payload:
   - DOMAIN-SUFFIX,dmzshequ.com
   - DOMAIN-KEYWORD,xfltd
   - DOMAIN-SUFFIX,uniss.me
+  - PROCESS-NAME,LeagueClient.exe
+  - PROCESS-NAME,Overwolf.exe,全局直连 🏠
+  - PROCESS-NAME,OverwolfBrowser.exe,全局直连 🏠

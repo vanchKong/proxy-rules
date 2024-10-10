@@ -18,4 +18,13 @@ HOST,tt.vg,custom-proxy-rules-qx
 HOST-SUFFIX,tenor.com,custom-proxy-rules-qx
 HOST-SUFFIX,shadowrocket.vip,custom-proxy-rules-qx
 HOST-SUFFIX,leiting.io,custom-proxy-rules-qx
-HOST,quantumult-x.com
+HOST,quantumult-x.com,custom-proxy-rules-qx
+
+# 订阅
+HOST,170203.xyz,custom-proxy-rules-qx
+HOST-SUFFIX,leiting.io,custom-proxy-rules-qx
+HOST-SUFFIX,phantasy.life,custom-proxy-rules-qx
+HOST-KEYWORD,xfltd,custom-proxy-rules-qx
+HOST,onlysub.mjurl.com,custom-proxy-rules-qx
+HOST-SUFFIX,uniss.me,custom-proxy-rules-qx
+HOST,sub.domiw.com,custom-proxy-rules-qx

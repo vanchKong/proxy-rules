@@ -19,3 +19,4 @@ payload:
   - DOMAIN-SUFFIX,tenor.com
   - DOMAIN-SUFFIX,shadowrocket.vip
   - DOMAIN-SUFFIX,leiting.io
+  - DOMAIN,quantumult-x.com

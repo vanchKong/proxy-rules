@@ -82,3 +82,6 @@ payload:
   - PROCESS-NAME,xdm.exe
   - PROCESS-NAME,xdman
   - PROCESS-NAME,xdman.exe
+  - PROCESS-NAME,LeagueClient.exe
+  - PROCESS-NAME,Overwolf.exe
+  - PROCESS-NAME,OverwolfBrowser.exe

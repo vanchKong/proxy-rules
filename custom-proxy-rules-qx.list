@@ -19,6 +19,7 @@ HOST-SUFFIX,tenor.com,custom-proxy-rules-qx
 HOST-SUFFIX,shadowrocket.vip,custom-proxy-rules-qx
 HOST-SUFFIX,leiting.io,custom-proxy-rules-qx
 HOST,quantumult-x.com,custom-proxy-rules-qx
+HOST-SUFFIX,cfprefer1.xyz,custom-proxy-rules-qx
 
 # 订阅
 HOST,170203.xyz,custom-proxy-rules-qx

@@ -20,7 +20,7 @@ payload:
   - DOMAIN-SUFFIX,shadowrocket.vip
   - DOMAIN-SUFFIX,leiting.io
   - DOMAIN,quantumult-x.com
-
+  - DOMAIN-SUFFIX,cfprefer1.xyz
 
   # 订阅
   - DOMAIN,170203.xyz

@@ -23,7 +23,7 @@ payload:
   - DOMAIN-SUFFIX,cfprefer1.xyz
 
   # 订阅
-  - DOMAIN,170203.xyz
+  - DOMAIN-SUFFIX,170203.xyz
   - DOMAIN-SUFFIX,leiting.io
   - DOMAIN-SUFFIX,phantasy.life
   - DOMAIN-KEYWORD,xfltd

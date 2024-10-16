@@ -2,3 +2,4 @@ payload:
   - DOMAIN-SUFFIX,vanch.fun
   - DOMAIN-SUFFIX,ipw.cn
   - DOMAIN-SUFFIX,dmzshequ.com
+  - DOMAIN,vanch.us.kg

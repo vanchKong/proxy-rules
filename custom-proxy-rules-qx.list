@@ -26,6 +26,7 @@ HOST,mjj.today,custom-proxy-rules-qx
 
 # 订阅
 HOST-SUFFIX,170203.xyz,custom-proxy-rules-qx
+HOST-SUFFIX,170809.xyz,custom-proxy-rules-qx
 HOST-SUFFIX,leiting.io,custom-proxy-rules-qx
 HOST-SUFFIX,phantasy.life,custom-proxy-rules-qx
 HOST-KEYWORD,xfltd,custom-proxy-rules-qx

@@ -21,6 +21,9 @@ payload:
   - DOMAIN,quantumult-x.com
   - DOMAIN-SUFFIX,cfprefer1.xyz
   - DOMAIN,register.us.kg
+  - DOMAIN,ice.frostsky.com
+  - DOMAIN,i.mij.rip
+  - DOMAIN,mjj.today
 
   # 订阅
   - DOMAIN-SUFFIX,170203.xyz
@@ -31,3 +34,4 @@ payload:
   - DOMAIN-SUFFIX,uniss.me
   - DOMAIN,sub.domiw.com
   - DOMAIN,cdn-api.moeu.top
+  - DOMAIN,dadada.acaisbest.com

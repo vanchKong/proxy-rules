@@ -20,6 +20,9 @@ HOST-SUFFIX,shadowrocket.vip,custom-proxy-rules-qx
 HOST,quantumult-x.com,custom-proxy-rules-qx
 HOST-SUFFIX,cfprefer1.xyz,custom-proxy-rules-qx
 HOST,register.us.kg,custom-proxy-rules-qx
+HOST,ice.frostsky.com,custom-proxy-rules-qx
+HOST,i.mij.rip,custom-proxy-rules-qx
+HOST,mjj.today,custom-proxy-rules-qx
 
 # 订阅
 HOST-SUFFIX,170203.xyz,custom-proxy-rules-qx
@@ -30,3 +33,4 @@ HOST,onlysub.mjurl.com,custom-proxy-rules-qx
 HOST-SUFFIX,uniss.me,custom-proxy-rules-qx
 HOST,sub.domiw.com,custom-proxy-rules-qx
 HOST,cdn-api.moeu.top,custom-proxy-rules-qx
+HOST,dadada.acaisbest.com,custom-proxy-rules-qx

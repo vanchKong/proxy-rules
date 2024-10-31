@@ -23,6 +23,8 @@ HOST,register.us.kg,custom-proxy-rules-qx
 HOST,ice.frostsky.com,custom-proxy-rules-qx
 HOST,i.mij.rip,custom-proxy-rules-qx
 HOST,mjj.today,custom-proxy-rules-qx
+HOST,shop.edumails.org,custom-proxy-rules-qx
+HOST,us.mailschool.me,custom-proxy-rules-qx
 
 # 订阅
 HOST-SUFFIX,170203.xyz,custom-proxy-rules-qx

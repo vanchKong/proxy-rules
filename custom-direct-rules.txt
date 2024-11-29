@@ -3,3 +3,6 @@ payload:
   - DOMAIN-SUFFIX,ipw.cn
   - DOMAIN-SUFFIX,dmzshequ.com
   - DOMAIN,vanch.us.kg
+  - DOMAIN,haveibeenpwned.com
+  - DOMAIN,console.bce.baidu.com
+  - DOMAIN,login.bce.baidu.com

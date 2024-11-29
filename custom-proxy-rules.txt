@@ -38,3 +38,5 @@ payload:
   - DOMAIN,sub.domiw.com
   - DOMAIN,cdn-api.moeu.top
   - DOMAIN,dadada.acaisbest.com
+  - DOMAIN,shop.10520.click
+  - DOMAIN,syyn.1.passwallwall.life

@@ -7,3 +7,18 @@ payload:
   - DOMAIN,console.bce.baidu.com
   - DOMAIN,login.bce.baidu.com
   - DOMAIN,canyouseeme.org
+
+  # PT
+  - DOMAIN-SUFFIX,hdarea.club
+  - DOMAIN-SUFFIX,hdvideo.one
+  - DOMAIN-SUFFIX,hhanclub.top
+  - DOMAIN-SUFFIX,hhan.club
+  - DOMAIN-SUFFIX,zmpt.cc
+  - DOMAIN-SUFFIX,qingwapt.com
+  - DOMAIN-SUFFIX,ptlgs.org
+  - DOMAIN-SUFFIX,cyanbug.net
+  - DOMAIN-SUFFIX,lemonhd.club
+  - DOMAIN-SUFFIX,crabpt.vip
+  - DOMAIN-SUFFIX,raingfh.top
+  - DOMAIN-SUFFIX,icc2022.com
+  - DOMAIN-SUFFIX,kufei.org

@@ -1,3 +1,4 @@
+# 常规
 DOMAIN,hycloud.shop
 DOMAIN-SUFFIX,linux.do
 DOMAIN,www.ruike1.com
@@ -7,7 +8,6 @@ DOMAIN-SUFFIX,phantasy.life
 DOMAIN,035888.xyz
 DOMAIN,assets.customer.io
 DOMAIN,www.googletagmanager.com
-DOMAIN-SUFFIX,love.52pokemon.cc
 DOMAIN,my.vpnpn.com
 DOMAIN,suburl.v1.mk
 DOMAIN,qfyun.org
@@ -25,6 +25,9 @@ DOMAIN,i.mij.rip
 DOMAIN,mjj.today
 DOMAIN,shop.edumails.org
 DOMAIN,us.mailschool.me
+DOMAIN-SUFFIX,uoo.ee
+DOMAIN,invites.fun
+DOMAIN,www.nodeseek.com
 
 # 订阅
 DOMAIN-SUFFIX,170203.xyz
@@ -39,3 +42,16 @@ DOMAIN,cdn-api.moeu.top
 DOMAIN,dadada.acaisbest.com
 DOMAIN,shop.10520.click
 DOMAIN,syyn.1.passwallwall.life
+
+
+# 梯子网站
+DOMAIN-SUFFIX,52pokemon.cc
+DOMAIN-SUFFIX,love.52pokemon.cc
+
+# PT
+DOMAIN,ptchina.org
+DOMAIN,ubits.club
+DOMAIN,audiences.me
+DOMAIN,rousi.zip
+DOMAIN,www.yemapt.org
+DOMAIN,www.agsvpt.com

@@ -1,3 +1,4 @@
+# 常规
 HOST,hycloud.shop,custom-proxy-rules-qx
 HOST-SUFFIX,linux.do,custom-proxy-rules-qx
 HOST,www.ruike1.com,custom-proxy-rules-qx
@@ -7,7 +8,6 @@ HOST-SUFFIX,phantasy.life,custom-proxy-rules-qx
 HOST,035888.xyz,custom-proxy-rules-qx
 HOST,assets.customer.io,custom-proxy-rules-qx
 HOST,www.googletagmanager.com,custom-proxy-rules-qx
-HOST-SUFFIX,love.52pokemon.cc,custom-proxy-rules-qx
 HOST,my.vpnpn.com,custom-proxy-rules-qx
 HOST,suburl.v1.mk,custom-proxy-rules-qx
 HOST,qfyun.org,custom-proxy-rules-qx
@@ -25,6 +25,9 @@ HOST,i.mij.rip,custom-proxy-rules-qx
 HOST,mjj.today,custom-proxy-rules-qx
 HOST,shop.edumails.org,custom-proxy-rules-qx
 HOST,us.mailschool.me,custom-proxy-rules-qx
+HOST-SUFFIX,uoo.ee,custom-proxy-rules-qx
+HOST,invites.fun,custom-proxy-rules-qx
+HOST,www.nodeseek.com,custom-proxy-rules-qx
 
 # 订阅
 HOST-SUFFIX,170203.xyz,custom-proxy-rules-qx
@@ -39,3 +42,16 @@ HOST,cdn-api.moeu.top,custom-proxy-rules-qx
 HOST,dadada.acaisbest.com,custom-proxy-rules-qx
 HOST,shop.10520.click,custom-proxy-rules-qx
 HOST,syyn.1.passwallwall.life,custom-proxy-rules-qx
+
+
+# 梯子网站
+HOST-SUFFIX,52pokemon.cc,custom-proxy-rules-qx
+HOST-SUFFIX,love.52pokemon.cc,custom-proxy-rules-qx
+
+# PT
+HOST,ptchina.org,custom-proxy-rules-qx
+HOST,ubits.club,custom-proxy-rules-qx
+HOST,audiences.me,custom-proxy-rules-qx
+HOST,rousi.zip,custom-proxy-rules-qx
+HOST,www.yemapt.org,custom-proxy-rules-qx
+HOST,www.agsvpt.com,custom-proxy-rules-qx

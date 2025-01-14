@@ -49,8 +49,9 @@ payload:
   - DOMAIN-SUFFIX,52pokemon.cc
   - DOMAIN-SUFFIX,love.52pokemon.cc
 
-  # PT
-  - DOMAIN,ptchina.org
+  # PT 网站
+  - DOMAIN,hhan.club
+  - DOMAIN,hhanclub.top
   - DOMAIN,ubits.club
   - DOMAIN,audiences.me
   - DOMAIN,rousi.zip

@@ -8,17 +8,66 @@ payload:
   - DOMAIN,login.bce.baidu.com
   - DOMAIN,canyouseeme.org
 
-  # PT
+  # PT 网站
+  - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN-SUFFIX,audiences.me
+  # - DOMAIN-SUFFIX,hhan.club
+  # - DOMAIN-SUFFIX,hhanclub.top
+  - DOMAIN-SUFFIX,ubits.club
+  - DOMAIN-SUFFIX,keepfrds.com
+  - DOMAIN-SUFFIX,hddolby.com
   - DOMAIN-SUFFIX,hdarea.club
-  - DOMAIN-SUFFIX,hdvideo.one
-  - DOMAIN-SUFFIX,hhanclub.top
-  - DOMAIN-SUFFIX,hhan.club
+  - DOMAIN-SUFFIX,btschool.club
   - DOMAIN-SUFFIX,zmpt.cc
   - DOMAIN-SUFFIX,qingwapt.com
   - DOMAIN-SUFFIX,ptlgs.org
   - DOMAIN-SUFFIX,cyanbug.net
   - DOMAIN-SUFFIX,lemonhd.club
+  - DOMAIN-SUFFIX,pttime.org
   - DOMAIN-SUFFIX,crabpt.vip
+  - DOMAIN-SUFFIX,hdtime.org
+  - DOMAIN-SUFFIX,ptcafe.club
   - DOMAIN-SUFFIX,raingfh.top
+  # - DOMAIN-SUFFIX,rousi.zip
+  # - DOMAIN-SUFFIX,yemapt.org
+  - DOMAIN-SUFFIX,agsvpt.com
+  - DOMAIN-SUFFIX,ptchina.org
   - DOMAIN-SUFFIX,icc2022.com
+  - DOMAIN-SUFFIX,hdvideo.one
   - DOMAIN-SUFFIX,kufei.org
+  - DOMAIN-SUFFIX,ilolicon.com
+
+
+  # PT Tracker
+  - DOMAIN,tracker.m-team.cc
+  - DOMAIN,t.audiences.me
+  - DOMAIN,tracker.cinefiles.info
+  - DOMAIN,tracker.hhanclub.top
+  - DOMAIN,tracker.hhan.club
+  - DOMAIN,tracker.trackerfile.com
+  - DOMAIN,t.ubits.club
+  - DOMAIN,tracker.keepfrds.com
+  - DOMAIN,t.hddolby.com
+  - DOMAIN,tracker.hdarea.club
+  - DOMAIN,pt.btschool.club
+  - DOMAIN,zmpt.cc
+  - DOMAIN,tracker.qingwa.pro
+  - DOMAIN,ptl.gs
+  - DOMAIN,tracker.cyanbug.net
+  - DOMAIN,tracker01.ilovelemonhd.me
+  - DOMAIN,www.pttime.org
+  - DOMAIN,crabpt.vip
+  - DOMAIN,tracker.hdtime.org
+  - DOMAIN,tracker.ptcafe.club
+  - DOMAIN,raingfh.top
+  # - DOMAIN,rousi.zip
+  # - DOMAIN,tracker.yemapt.org
+  - DOMAIN,agsvpt.trackers.work
+  - DOMAIN,ptchina.org
+  - DOMAIN,tracker1.icc2022.de
+  - DOMAIN,tracker.icc2022.xyz
+  - DOMAIN,tracker2.icc2022.de
+  - DOMAIN,tracker3.icc2022.de
+  - DOMAIN,hdvideo.one
+  - DOMAIN,kufei.org
+  - DOMAIN,tracker.ilolicon.cc

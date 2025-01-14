@@ -8,17 +8,66 @@ HOST,login.bce.baidu.com,custom-direct-rules-qx
 HOST,canyouseeme.org,custom-direct-rules-qx
 
 
-# PT
-HOST-SUFFIX,hdarea.club,custom-direct-rules-qx
-HOST-SUFFIX,hdvideo.one,custom-direct-rules-qx
-HOST-SUFFIX,hhanclub.top,custom-direct-rules-qx
-HOST-SUFFIX,hhan.club,custom-direct-rules-qx
-HOST-SUFFIX,zmpt.cc,custom-direct-rules-qx
-HOST-SUFFIX,qingwapt.com,custom-direct-rules-qx
-HOST-SUFFIX,ptlgs.org,custom-direct-rules-qx
-HOST-SUFFIX,cyanbug.net,custom-direct-rules-qx
-HOST-SUFFIX,lemonhd.club,custom-direct-rules-qx
-HOST-SUFFIX,crabpt.vip,custom-direct-rules-qx
-HOST-SUFFIX,raingfh.top,custom-direct-rules-qx
-HOST-SUFFIX,icc2022.com,custom-direct-rules-qx
-HOST-SUFFIX,kufei.org,custom-direct-rules-qx
+  # PT 网站
+HOST-SUFFIX-SUFFIX,m-team.cc
+HOST-SUFFIX-SUFFIX,audiences.me
+# HOST-SUFFIX,hhan.club
+# HOST-SUFFIX,hhanclub.top
+HOST-SUFFIX-SUFFIX,ubits.club
+HOST-SUFFIX-SUFFIX,keepfrds.com
+HOST-SUFFIX-SUFFIX,hddolby.com
+HOST-SUFFIX-SUFFIX,hdarea.club
+HOST-SUFFIX-SUFFIX,btschool.club
+HOST-SUFFIX-SUFFIX,zmpt.cc
+HOST-SUFFIX-SUFFIX,qingwapt.com
+HOST-SUFFIX-SUFFIX,ptlgs.org
+HOST-SUFFIX-SUFFIX,cyanbug.net
+HOST-SUFFIX-SUFFIX,lemonhd.club
+HOST-SUFFIX-SUFFIX,pttime.org
+HOST-SUFFIX-SUFFIX,crabpt.vip
+HOST-SUFFIX-SUFFIX,hdtime.org
+HOST-SUFFIX-SUFFIX,ptcafe.club
+HOST-SUFFIX-SUFFIX,raingfh.top
+# HOST-SUFFIX,rousi.zip
+# HOST-SUFFIX,yemapt.org
+HOST-SUFFIX-SUFFIX,agsvpt.com
+HOST-SUFFIX-SUFFIX,ptchina.org
+HOST-SUFFIX-SUFFIX,icc2022.com
+HOST-SUFFIX-SUFFIX,hdvideo.one
+HOST-SUFFIX-SUFFIX,kufei.org
+HOST-SUFFIX-SUFFIX,ilolicon.com
+
+
+# PT Tracker
+HOST,tracker.m-team.cc,custom-direct-rules-qx
+HOST,t.audiences.me,custom-direct-rules-qx
+HOST,tracker.cinefiles.info,custom-direct-rules-qx
+HOST,tracker.hhanclub.top,custom-direct-rules-qx
+HOST,tracker.hhan.club,custom-direct-rules-qx
+HOST,tracker.trackerfile.com,custom-direct-rules-qx
+HOST,t.ubits.club,custom-direct-rules-qx
+HOST,tracker.keepfrds.com,custom-direct-rules-qx
+HOST,t.hddolby.com,custom-direct-rules-qx
+HOST,tracker.hdarea.club,custom-direct-rules-qx
+HOST,pt.btschool.club,custom-direct-rules-qx
+HOST,zmpt.cc,custom-direct-rules-qx
+HOST,tracker.qingwa.pro,custom-direct-rules-qx
+HOST,ptl.gs,custom-direct-rules-qx
+HOST,tracker.cyanbug.net,custom-direct-rules-qx
+HOST,tracker01.ilovelemonhd.me,custom-direct-rules-qx
+HOST,www.pttime.org,custom-direct-rules-qx
+HOST,crabpt.vip,custom-direct-rules-qx
+HOST,tracker.hdtime.org,custom-direct-rules-qx
+HOST,tracker.ptcafe.club,custom-direct-rules-qx
+HOST,raingfh.top,custom-direct-rules-qx
+# HOST,rousi.zip,custom-direct-rules-qx
+# HOST,tracker.yemapt.org,custom-direct-rules-qx
+HOST,agsvpt.trackers.work,custom-direct-rules-qx
+HOST,ptchina.org,custom-direct-rules-qx
+HOST,tracker1.icc2022.de,custom-direct-rules-qx
+HOST,tracker.icc2022.xyz,custom-direct-rules-qx
+HOST,tracker2.icc2022.de,custom-direct-rules-qx
+HOST,tracker3.icc2022.de,custom-direct-rules-qx
+HOST,hdvideo.one,custom-direct-rules-qx
+HOST,kufei.org,custom-direct-rules-qx
+HOST,tracker.ilolicon.cc,custom-direct-rules-qx

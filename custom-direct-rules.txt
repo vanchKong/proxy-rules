@@ -13,12 +13,14 @@ payload:
   - DOMAIN-SUFFIX,audiences.me
   # - DOMAIN-SUFFIX,hhan.club
   # - DOMAIN-SUFFIX,hhanclub.top
+  - DOMAIN-SUFFIX,ourbits.club
   - DOMAIN-SUFFIX,ubits.club
   - DOMAIN-SUFFIX,keepfrds.com
   - DOMAIN-SUFFIX,hddolby.com
   - DOMAIN-SUFFIX,hdarea.club
   - DOMAIN-SUFFIX,btschool.club
   - DOMAIN-SUFFIX,zmpt.cc
+  - DOMAIN-SUFFIX,piggo.me
   - DOMAIN-SUFFIX,qingwapt.com
   - DOMAIN-SUFFIX,ptlgs.org
   - DOMAIN-SUFFIX,cyanbug.net
@@ -36,6 +38,7 @@ payload:
   - DOMAIN-SUFFIX,hdvideo.one
   - DOMAIN-SUFFIX,kufei.org
   - DOMAIN-SUFFIX,ilolicon.com
+  - DOMAIN-SUFFIX,ultrahd.net
 
 
   # PT Tracker

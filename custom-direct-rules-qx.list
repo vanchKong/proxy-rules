@@ -9,33 +9,36 @@ HOST,canyouseeme.org,custom-direct-rules-qx
 
 
   # PT 网站
-HOST-SUFFIX-SUFFIX,m-team.cc
-HOST-SUFFIX-SUFFIX,audiences.me
+HOST-SUFFIX,m-team.cc
+HOST-SUFFIX,audiences.me
 # HOST-SUFFIX,hhan.club
 # HOST-SUFFIX,hhanclub.top
-HOST-SUFFIX-SUFFIX,ubits.club
-HOST-SUFFIX-SUFFIX,keepfrds.com
-HOST-SUFFIX-SUFFIX,hddolby.com
-HOST-SUFFIX-SUFFIX,hdarea.club
-HOST-SUFFIX-SUFFIX,btschool.club
-HOST-SUFFIX-SUFFIX,zmpt.cc
-HOST-SUFFIX-SUFFIX,qingwapt.com
-HOST-SUFFIX-SUFFIX,ptlgs.org
-HOST-SUFFIX-SUFFIX,cyanbug.net
-HOST-SUFFIX-SUFFIX,lemonhd.club
-HOST-SUFFIX-SUFFIX,pttime.org
-HOST-SUFFIX-SUFFIX,crabpt.vip
-HOST-SUFFIX-SUFFIX,hdtime.org
-HOST-SUFFIX-SUFFIX,ptcafe.club
-HOST-SUFFIX-SUFFIX,raingfh.top
+HOST-SUFFIX,ourbits.club
+HOST-SUFFIX,ubits.club
+HOST-SUFFIX,keepfrds.com
+HOST-SUFFIX,hddolby.com
+HOST-SUFFIX,hdarea.club
+HOST-SUFFIX,btschool.club
+HOST-SUFFIX,zmpt.cc
+HOST-SUFFIX,piggo.me
+HOST-SUFFIX,qingwapt.com
+HOST-SUFFIX,ptlgs.org
+HOST-SUFFIX,cyanbug.net
+HOST-SUFFIX,lemonhd.club
+HOST-SUFFIX,pttime.org
+HOST-SUFFIX,crabpt.vip
+HOST-SUFFIX,hdtime.org
+HOST-SUFFIX,ptcafe.club
+HOST-SUFFIX,raingfh.top
 # HOST-SUFFIX,rousi.zip
 # HOST-SUFFIX,yemapt.org
-HOST-SUFFIX-SUFFIX,agsvpt.com
-HOST-SUFFIX-SUFFIX,ptchina.org
-HOST-SUFFIX-SUFFIX,icc2022.com
-HOST-SUFFIX-SUFFIX,hdvideo.one
-HOST-SUFFIX-SUFFIX,kufei.org
-HOST-SUFFIX-SUFFIX,ilolicon.com
+HOST-SUFFIX,agsvpt.com
+HOST-SUFFIX,ptchina.org
+HOST-SUFFIX,icc2022.com
+HOST-SUFFIX,hdvideo.one
+HOST-SUFFIX,kufei.org
+HOST-SUFFIX,ilolicon.com
+HOST-SUFFIX,ultrahd.net
 
 
 # PT Tracker

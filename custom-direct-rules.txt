@@ -11,8 +11,8 @@ payload:
   # PT 网站
   - DOMAIN-SUFFIX,m-team.cc
   - DOMAIN-SUFFIX,audiences.me
-  # - DOMAIN-SUFFIX,hhan.club
-  # - DOMAIN-SUFFIX,hhanclub.top
+  - DOMAIN-SUFFIX,hhan.club
+  - DOMAIN-SUFFIX,hhanclub.top
   - DOMAIN-SUFFIX,ourbits.club
   - DOMAIN-SUFFIX,ubits.club
   - DOMAIN-SUFFIX,keepfrds.com
@@ -30,8 +30,8 @@ payload:
   - DOMAIN-SUFFIX,hdtime.org
   - DOMAIN-SUFFIX,ptcafe.club
   - DOMAIN-SUFFIX,raingfh.top
-  # - DOMAIN-SUFFIX,rousi.zip
-  # - DOMAIN-SUFFIX,yemapt.org
+  - DOMAIN-SUFFIX,rousi.zip
+  - DOMAIN-SUFFIX,yemapt.org
   - DOMAIN-SUFFIX,agsvpt.com
   - DOMAIN-SUFFIX,ptchina.org
   - DOMAIN-SUFFIX,icc2022.com
@@ -63,8 +63,8 @@ payload:
   - DOMAIN,tracker.hdtime.org
   - DOMAIN,tracker.ptcafe.club
   - DOMAIN,raingfh.top
-  # - DOMAIN,rousi.zip
-  # - DOMAIN,tracker.yemapt.org
+  - DOMAIN,rousi.zip
+  - DOMAIN,tracker.yemapt.org
   - DOMAIN,agsvpt.trackers.work
   - DOMAIN,ptchina.org
   - DOMAIN,tracker1.icc2022.de

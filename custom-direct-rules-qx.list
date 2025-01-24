@@ -11,8 +11,8 @@ HOST,canyouseeme.org,custom-direct-rules-qx
   # PT 网站
 HOST-SUFFIX,m-team.cc
 HOST-SUFFIX,audiences.me
-# HOST-SUFFIX,hhan.club
-# HOST-SUFFIX,hhanclub.top
+HOST-SUFFIX,hhan.club
+HOST-SUFFIX,hhanclub.top
 HOST-SUFFIX,ourbits.club
 HOST-SUFFIX,ubits.club
 HOST-SUFFIX,keepfrds.com
@@ -30,8 +30,8 @@ HOST-SUFFIX,crabpt.vip
 HOST-SUFFIX,hdtime.org
 HOST-SUFFIX,ptcafe.club
 HOST-SUFFIX,raingfh.top
-# HOST-SUFFIX,rousi.zip
-# HOST-SUFFIX,yemapt.org
+HOST-SUFFIX,rousi.zip
+HOST-SUFFIX,yemapt.org
 HOST-SUFFIX,agsvpt.com
 HOST-SUFFIX,ptchina.org
 HOST-SUFFIX,icc2022.com
@@ -63,8 +63,8 @@ HOST,crabpt.vip,custom-direct-rules-qx
 HOST,tracker.hdtime.org,custom-direct-rules-qx
 HOST,tracker.ptcafe.club,custom-direct-rules-qx
 HOST,raingfh.top,custom-direct-rules-qx
-# HOST,rousi.zip,custom-direct-rules-qx
-# HOST,tracker.yemapt.org,custom-direct-rules-qx
+HOST,rousi.zip,custom-direct-rules-qx
+HOST,tracker.yemapt.org,custom-direct-rules-qx
 HOST,agsvpt.trackers.work,custom-direct-rules-qx
 HOST,ptchina.org,custom-direct-rules-qx
 HOST,tracker1.icc2022.de,custom-direct-rules-qx

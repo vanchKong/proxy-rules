@@ -50,10 +50,10 @@ payload:
   - DOMAIN-SUFFIX,love.52pokemon.cc
 
   # PT 网站
-  - DOMAIN,hhan.club
-  - DOMAIN,hhanclub.top
-  - DOMAIN,ubits.club
-  - DOMAIN,audiences.me
-  - DOMAIN,rousi.zip
-  - DOMAIN,www.yemapt.org
-  - DOMAIN,www.agsvpt.com
+  # - DOMAIN,hhan.club
+  # - DOMAIN,hhanclub.top
+  # - DOMAIN,ubits.club
+  # - DOMAIN,audiences.me
+  # - DOMAIN,rousi.zip
+  # - DOMAIN,www.yemapt.org
+  # - DOMAIN,www.agsvpt.com

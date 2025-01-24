@@ -50,10 +50,10 @@ HOST-SUFFIX,love.52pokemon.cc,custom-proxy-rules-qx
 
 
   # PT 网站
-HOST,hhan.club,custom-proxy-rules-qx
-HOST,hhanclub.top,custom-proxy-rules-qx
-HOST,ubits.club,custom-proxy-rules-qx
-HOST,audiences.me,custom-proxy-rules-qx
-HOST,rousi.zip,custom-proxy-rules-qx
-HOST,www.yemapt.org,custom-proxy-rules-qx
-HOST,www.agsvpt.com,custom-proxy-rules-qx
+# HOST,hhan.club,custom-proxy-rules-qx
+# HOST,hhanclub.top,custom-proxy-rules-qx
+# HOST,ubits.club,custom-proxy-rules-qx
+# HOST,audiences.me,custom-proxy-rules-qx
+# HOST,rousi.zip,custom-proxy-rules-qx
+# HOST,www.yemapt.org,custom-proxy-rules-qx
+# HOST,www.agsvpt.com,custom-proxy-rules-qx

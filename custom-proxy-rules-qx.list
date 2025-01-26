@@ -28,6 +28,8 @@ HOST,us.mailschool.me,custom-proxy-rules-qx
 HOST-SUFFIX,uoo.ee,custom-proxy-rules-qx
 HOST,invites.fun,custom-proxy-rules-qx
 HOST,www.nodeseek.com,custom-proxy-rules-qx
+HOST-SUFFIX,gitea.com,custom-proxy-rules-qx
+HOST,limbopro.com,custom-proxy-rules-qx
 
 # 订阅
 HOST-SUFFIX,170203.xyz,custom-proxy-rules-qx
@@ -42,6 +44,8 @@ HOST,cdn-api.moeu.top,custom-proxy-rules-qx
 HOST,dadada.acaisbest.com,custom-proxy-rules-qx
 HOST,shop.10520.click,custom-proxy-rules-qx
 HOST,syyn.1.passwallwall.life,custom-proxy-rules-qx
+HOST,syyncdn.1010520.click,custom-proxy-rules-qx
+HOST,go.10520.click,custom-proxy-rules-qx
 
 
 # 梯子网站

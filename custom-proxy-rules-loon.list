@@ -28,6 +28,8 @@ DOMAIN,us.mailschool.me
 DOMAIN-SUFFIX,uoo.ee
 DOMAIN,invites.fun
 DOMAIN,www.nodeseek.com
+DOMAIN-SUFFIX,gitea.com
+DOMAIN,limbopro.com
 
 # 订阅
 DOMAIN-SUFFIX,170203.xyz
@@ -42,6 +44,8 @@ DOMAIN,cdn-api.moeu.top
 DOMAIN,dadada.acaisbest.com
 DOMAIN,shop.10520.click
 DOMAIN,syyn.1.passwallwall.life
+DOMAIN,syyncdn.1010520.click
+DOMAIN,go.10520.click
 
 
 # 梯子网站

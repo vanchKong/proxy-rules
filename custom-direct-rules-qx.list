@@ -9,36 +9,42 @@ HOST,canyouseeme.org,custom-direct-rules-qx
 
 
   # PT 网站
-HOST-SUFFIX,m-team.cc
-HOST-SUFFIX,audiences.me
-HOST-SUFFIX,hhan.club
-HOST-SUFFIX,hhanclub.top
-HOST-SUFFIX,ourbits.club
-HOST-SUFFIX,ubits.club
-HOST-SUFFIX,keepfrds.com
-HOST-SUFFIX,hddolby.com
-HOST-SUFFIX,hdarea.club
-HOST-SUFFIX,btschool.club
-HOST-SUFFIX,zmpt.cc
-HOST-SUFFIX,piggo.me
-HOST-SUFFIX,qingwapt.com
-HOST-SUFFIX,ptlgs.org
-HOST-SUFFIX,cyanbug.net
-HOST-SUFFIX,lemonhd.club
-HOST-SUFFIX,pttime.org
-HOST-SUFFIX,crabpt.vip
-HOST-SUFFIX,hdtime.org
-HOST-SUFFIX,ptcafe.club
-HOST-SUFFIX,raingfh.top
-HOST-SUFFIX,rousi.zip
-HOST-SUFFIX,yemapt.org
-HOST-SUFFIX,agsvpt.com
-HOST-SUFFIX,ptchina.org
-HOST-SUFFIX,icc2022.com
-HOST-SUFFIX,hdvideo.one
-HOST-SUFFIX,kufei.org
-HOST-SUFFIX,ilolicon.com
-HOST-SUFFIX,ultrahd.net
+HOST-SUFFIX,m-team.cc,custom-direct-rules-qx
+HOST-SUFFIX,audiences.me,custom-direct-rules-qx
+HOST-SUFFIX,hhan.club,custom-direct-rules-qx
+HOST-SUFFIX,hhanclub.top,custom-direct-rules-qx
+HOST-SUFFIX,ourbits.club,custom-direct-rules-qx
+HOST-SUFFIX,ubits.club,custom-direct-rules-qx
+HOST-SUFFIX,keepfrds.com,custom-direct-rules-qx
+HOST-SUFFIX,hddolby.com,custom-direct-rules-qx
+HOST-SUFFIX,hdarea.club,custom-direct-rules-qx
+HOST-SUFFIX,btschool.club,custom-direct-rules-qx
+HOST-SUFFIX,zmpt.cc,custom-direct-rules-qx
+HOST-SUFFIX,piggo.me,custom-direct-rules-qx
+HOST-SUFFIX,qingwapt.com,custom-direct-rules-qx
+HOST-SUFFIX,ptlgs.org,custom-direct-rules-qx
+HOST-SUFFIX,cyanbug.net,custom-direct-rules-qx
+HOST-SUFFIX,lemonhd.club,custom-direct-rules-qx
+HOST-SUFFIX,pttime.org,custom-direct-rules-qx
+HOST-SUFFIX,crabpt.vip,custom-direct-rules-qx
+HOST-SUFFIX,hdtime.org,custom-direct-rules-qx
+HOST-SUFFIX,ptcafe.club,custom-direct-rules-qx
+HOST-SUFFIX,raingfh.top,custom-direct-rules-qx
+HOST-SUFFIX,rousi.zip,custom-direct-rules-qx
+HOST-SUFFIX,yemapt.org,custom-direct-rules-qx
+HOST-SUFFIX,agsvpt.com,custom-direct-rules-qx
+HOST-SUFFIX,ptchina.org,custom-direct-rules-qx
+HOST-SUFFIX,icc2022.com,custom-direct-rules-qx
+HOST-SUFFIX,hdvideo.one,custom-direct-rules-qx
+HOST-SUFFIX,kufei.org,custom-direct-rules-qx
+HOST-SUFFIX,ilolicon.com,custom-direct-rules-qx
+HOST-SUFFIX,ultrahd.net,custom-direct-rules-qx
+HOST-SUFFIX,hdhome.org,custom-direct-rules-qx
+HOST-SUFFIX,soulvoice.club,custom-direct-rules-qx
+HOST-SUFFIX,zhuque.in,custom-direct-rules-qx
+HOST-SUFFIX,hdkyl.in,custom-direct-rules-qx
+HOST-SUFFIX,hdkylin.top,custom-direct-rules-qx
+HOST-SUFFIX,ptvicomo.net,custom-direct-rules-qx,custom-direct-rules-qx
 
 
 # PT Tracker

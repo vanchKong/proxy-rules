@@ -7,6 +7,9 @@ payload:
   - DOMAIN,console.bce.baidu.com
   - DOMAIN,login.bce.baidu.com
   - DOMAIN,canyouseeme.org
+  - DOMAIN-SUFFIX,cloudlayer.icu
+  - DOMAIN-SUFFIX,docker.1panel.dev
+  - DOMAIN-SUFFIX,docker.1panel.live
 
   # PT 网站
   - DOMAIN-SUFFIX,m-team.cc

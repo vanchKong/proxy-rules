@@ -6,6 +6,9 @@ HOST,haveibeenpwned.com,custom-direct-rules-qx
 HOST,console.bce.baidu.com,custom-direct-rules-qx
 HOST,login.bce.baidu.com,custom-direct-rules-qx
 HOST,canyouseeme.org,custom-direct-rules-qx
+HOST-SUFFIX,cloudlayer.icu,custom-direct-rules-qx
+HOST-SUFFIX,docker.1panel.dev,custom-direct-rules-qx
+HOST-SUFFIX,docker.1panel.live,custom-direct-rules-qx
 
 
   # PT 网站

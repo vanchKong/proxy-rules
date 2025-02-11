@@ -44,7 +44,12 @@ HOST-SUFFIX,soulvoice.club,custom-direct-rules-qx
 HOST-SUFFIX,zhuque.in,custom-direct-rules-qx
 HOST-SUFFIX,hdkyl.in,custom-direct-rules-qx
 HOST-SUFFIX,hdkylin.top,custom-direct-rules-qx
-HOST-SUFFIX,ptvicomo.net,custom-direct-rules-qx,custom-direct-rules-qx
+HOST-SUFFIX,ptvicomo.net,custom-direct-rules-qx
+HOST-SUFFIX,ptchdbits.co,custom-direct-rules-qx
+HOST-SUFFIX,ptsbao.club,custom-direct-rules-qx
+HOST-SUFFIX,hdsky.me,custom-direct-rules-qx
+HOST-SUFFIX,hdfans.org,custom-direct-rules-qx
+HOST-SUFFIX,pandapt.net,custom-direct-rules-qx
 
 
 # PT Tracker
@@ -54,12 +59,14 @@ HOST,tracker.cinefiles.info,custom-direct-rules-qx
 HOST,tracker.hhanclub.top,custom-direct-rules-qx
 HOST,tracker.hhan.club,custom-direct-rules-qx
 HOST,tracker.trackerfile.com,custom-direct-rules-qx
+HOST,ourbits.club,custom-direct-rules-qx
 HOST,t.ubits.club,custom-direct-rules-qx
 HOST,tracker.keepfrds.com,custom-direct-rules-qx
 HOST,t.hddolby.com,custom-direct-rules-qx
 HOST,tracker.hdarea.club,custom-direct-rules-qx
 HOST,pt.btschool.club,custom-direct-rules-qx
 HOST,zmpt.cc,custom-direct-rules-qx
+HOST,tracker.piggo.me,custom-direct-rules-qx
 HOST,tracker.qingwa.pro,custom-direct-rules-qx
 HOST,ptl.gs,custom-direct-rules-qx
 HOST,tracker.cyanbug.net,custom-direct-rules-qx
@@ -70,6 +77,7 @@ HOST,tracker.hdtime.org,custom-direct-rules-qx
 HOST,tracker.ptcafe.club,custom-direct-rules-qx
 HOST,raingfh.top,custom-direct-rules-qx
 HOST,rousi.zip,custom-direct-rules-qx
+HOST,cdn.rousi.zip,custom-direct-rules-qx
 HOST,tracker.yemapt.org,custom-direct-rules-qx
 HOST,agsvpt.trackers.work,custom-direct-rules-qx
 HOST,ptchina.org,custom-direct-rules-qx
@@ -80,3 +88,17 @@ HOST,tracker3.icc2022.de,custom-direct-rules-qx
 HOST,hdvideo.one,custom-direct-rules-qx
 HOST,kufei.org,custom-direct-rules-qx
 HOST,tracker.ilolicon.cc,custom-direct-rules-qx
+HOST,ultrahd.net,custom-direct-rules-qx
+HOST,t.hdhome.org,custom-direct-rules-qx
+HOST,pt.soulvoice.club,custom-direct-rules-qx
+HOST,tracker.zhuque.in,custom-direct-rules-qx
+HOST,tracker.hdkyl.in,custom-direct-rules-qx
+HOST,www.hdkylin.top,custom-direct-rules-qx
+HOST,tracker.ptvicomo.net,custom-direct-rules-qx
+HOST,tracker.ptchdbits.co,custom-direct-rules-qx
+HOST,tracker.rainbowisland.co,custom-direct-rules-qx
+HOST,chdbits.xyz,custom-direct-rules-qx
+HOST,ptsbao.club,custom-direct-rules-qx
+HOST,tracker.hdsky.me,custom-direct-rules-qx
+HOST,hdfans.org,custom-direct-rules-qx
+HOST,pandapt.net,custom-direct-rules-qx

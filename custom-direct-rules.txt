@@ -53,6 +53,7 @@ payload:
   - DOMAIN-SUFFIX,hdsky.me
   - DOMAIN-SUFFIX,hdfans.org
   - DOMAIN-SUFFIX,pandapt.net
+  - DOMAIN-SUFFIX,sunnypt.top
 
 
   # PT Tracker
@@ -105,3 +106,5 @@ payload:
   - DOMAIN,tracker.hdsky.me
   - DOMAIN,hdfans.org
   - DOMAIN,pandapt.net
+  - DOMAIN,sunnytk.top
+  - DOMAIN,tracker.sunnypt.top

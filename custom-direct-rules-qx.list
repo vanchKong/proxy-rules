@@ -53,6 +53,7 @@ HOST-SUFFIX,ptsbao.club,custom-direct-rules-qx
 HOST-SUFFIX,hdsky.me,custom-direct-rules-qx
 HOST-SUFFIX,hdfans.org,custom-direct-rules-qx
 HOST-SUFFIX,pandapt.net,custom-direct-rules-qx
+HOST-SUFFIX,sunnypt.top,custom-direct-rules-qx
 
 
 # PT Tracker
@@ -105,3 +106,5 @@ HOST,ptsbao.club,custom-direct-rules-qx
 HOST,tracker.hdsky.me,custom-direct-rules-qx
 HOST,hdfans.org,custom-direct-rules-qx
 HOST,pandapt.net,custom-direct-rules-qx
+HOST,sunnytk.top,custom-direct-rules-qx
+HOST,tracker.sunnypt.top,custom-direct-rules-qx

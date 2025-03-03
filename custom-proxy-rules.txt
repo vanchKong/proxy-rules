@@ -59,3 +59,7 @@ payload:
   - DOMAIN,www.yemapt.org
   - DOMAIN,ptvicomo.net
   - DOMAIN,tracker.ptvicomo.net
+  - DOMAIN,share.ilolicon.com
+  - DOMAIN,www.icc2022.com
+
+  - DOMAIN,www.hdkyl.in

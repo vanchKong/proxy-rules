@@ -13,11 +13,16 @@ payload:
 
   # PT 网站
   - DOMAIN-SUFFIX,m-team.cc
+  - DOMAIN-SUFFIX,m-team.io
+  - DOMAIN-SUFFIX,springsunday.net
+  - DOMAIN-SUFFIX,totheglory.im
+  - DOMAIN-SUFFIX,hdsky.me
+  - DOMAIN-SUFFIX,ptchdbits.co
+  - DOMAIN-SUFFIX,ubits.club
   - DOMAIN-SUFFIX,audiences.me
   - DOMAIN-SUFFIX,hhan.club
   - DOMAIN-SUFFIX,hhanclub.top
   - DOMAIN-SUFFIX,ourbits.club
-  - DOMAIN-SUFFIX,ubits.club
   - DOMAIN-SUFFIX,keepfrds.com
   - DOMAIN-SUFFIX,hddolby.com
   - DOMAIN-SUFFIX,hdarea.club
@@ -32,28 +37,29 @@ payload:
   - DOMAIN-SUFFIX,crabpt.vip
   - DOMAIN-SUFFIX,hdtime.org
   - DOMAIN-SUFFIX,ptcafe.club
-  - DOMAIN-SUFFIX,raingfh.top
-  - DOMAIN-SUFFIX,rousi.zip
-  - DOMAIN-SUFFIX,yemapt.org
   - DOMAIN-SUFFIX,agsvpt.com
-  - DOMAIN-SUFFIX,ptchina.org
-  - DOMAIN-SUFFIX,icc2022.com
-  - DOMAIN-SUFFIX,hdvideo.one
   - DOMAIN-SUFFIX,kufei.org
-  - DOMAIN-SUFFIX,ilolicon.com
-  - DOMAIN-SUFFIX,ultrahd.net
   - DOMAIN-SUFFIX,hdhome.org
   - DOMAIN-SUFFIX,soulvoice.club
   - DOMAIN-SUFFIX,zhuque.in
-  - DOMAIN-SUFFIX,hdkyl.in
-  - DOMAIN-SUFFIX,hdkylin.top
-  - DOMAIN-SUFFIX,ptvicomo.net
-  - DOMAIN-SUFFIX,ptchdbits.co
   - DOMAIN-SUFFIX,ptsbao.club
-  - DOMAIN-SUFFIX,hdsky.me
   - DOMAIN-SUFFIX,hdfans.org
   - DOMAIN-SUFFIX,pandapt.net
+  - DOMAIN-SUFFIX,hdkyl.in
+  - DOMAIN-SUFFIX,hdkylin.com
+  - DOMAIN-SUFFIX,hdkylin.top
+  - DOMAIN-SUFFIX,tmpt.top
+  - DOMAIN-SUFFIX,raingfh.top
+  - DOMAIN-SUFFIX,hdvideo.one
+  - DOMAIN-SUFFIX,ultrahd.net
   - DOMAIN-SUFFIX,sunnypt.top
+  - DOMAIN-SUFFIX,ptchina.org
+
+  - DOMAIN-SUFFIX,rousi.zip
+  - DOMAIN-SUFFIX,yemapt.org
+  - DOMAIN-SUFFIX,ptvicomo.net
+  - DOMAIN-SUFFIX,ilolicon.com
+  - DOMAIN-SUFFIX,icc2022.com
 
 
   # PT Tracker

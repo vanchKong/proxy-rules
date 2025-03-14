@@ -30,6 +30,13 @@ HOST,invites.fun,custom-proxy-rules-qx
 HOST,www.nodeseek.com,custom-proxy-rules-qx
 HOST-SUFFIX,gitea.com,custom-proxy-rules-qx
 HOST,limbopro.com,custom-proxy-rules-qx
+HOST,www.linnainai.xyz,custom-proxy-rules-qx
+HOST,tgzhanghao.com,custom-proxy-rules-qx
+HOST,img.xxxh.de,custom-proxy-rules-qx
+HOST,paste.spiritlhl.net,custom-proxy-rules-qx
+HOST,cdn-fusion.imgcdn.store,custom-proxy-rules-qx
+HOST,www.invites.fun,custom-proxy-rules-qx
+HOST,rocket.plexpt.com,custom-proxy-rules-qx
 
 # 订阅
 HOST-SUFFIX,170203.xyz,custom-proxy-rules-qx

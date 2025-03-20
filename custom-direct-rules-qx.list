@@ -11,6 +11,9 @@ HOST-SUFFIX,docker.1panel.dev,custom-direct-rules-qx
 HOST-SUFFIX,docker.1panel.live,custom-direct-rules-qx
 HOST-KEYWORD,oracle,custom-direct-rules-qx
 HOST-KEYWORD,oraclecloud,custom-direct-rules-qx
+HOST,ghproxy.net,custom-direct-rules-qx
+HOST,www.paypal.com,custom-direct-rules-qx
+HOST,ui.886663.xyz,custom-direct-rules-qx
 
 
   # PT 网站

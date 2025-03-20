@@ -15,6 +15,10 @@ payload:
   - IP-CIDR,64.181.253.50/32
   - IP-CIDR,149.88.87.232/32
   - IP-CIDR,45.207.195.186/32
+  - IP-CIDR,152.53.131.163/32
+  - DOMAIN,ghproxy.net
+  - DOMAIN,www.paypal.com
+  - DOMAIN,ui.886663.xyz
 
   # PT 网站
   - DOMAIN-SUFFIX,m-team.cc

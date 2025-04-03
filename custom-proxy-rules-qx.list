@@ -1,3 +1,4 @@
+# 常规
 HOST,hycloud.shop,custom-proxy-rules-qx
 HOST-SUFFIX,linux.do,custom-proxy-rules-qx
 HOST,www.ruike1.com,custom-proxy-rules-qx
@@ -7,7 +8,6 @@ HOST-SUFFIX,phantasy.life,custom-proxy-rules-qx
 HOST,035888.xyz,custom-proxy-rules-qx
 HOST,assets.customer.io,custom-proxy-rules-qx
 HOST,www.googletagmanager.com,custom-proxy-rules-qx
-HOST-SUFFIX,love.52pokemon.cc,custom-proxy-rules-qx
 HOST,my.vpnpn.com,custom-proxy-rules-qx
 HOST,suburl.v1.mk,custom-proxy-rules-qx
 HOST,qfyun.org,custom-proxy-rules-qx
@@ -31,6 +31,18 @@ HOST,www.qbittorrent.org,custom-proxy-rules-qx
 HOST,img.imgdd.com,custom-proxy-rules-qx
 HOST,pting.club,custom-proxy-rules-qx
 HOST,img.erpweb.eu.org,custom-proxy-rules-qx
+HOST-SUFFIX,uoo.ee,custom-proxy-rules-qx
+HOST,invites.fun,custom-proxy-rules-qx
+HOST,www.nodeseek.com,custom-proxy-rules-qx
+HOST-SUFFIX,gitea.com,custom-proxy-rules-qx
+HOST,limbopro.com,custom-proxy-rules-qx
+HOST,www.linnainai.xyz,custom-proxy-rules-qx
+HOST,tgzhanghao.com,custom-proxy-rules-qx
+HOST,img.xxxh.de,custom-proxy-rules-qx
+HOST,paste.spiritlhl.net,custom-proxy-rules-qx
+HOST,cdn-fusion.imgcdn.store,custom-proxy-rules-qx
+HOST,www.invites.fun,custom-proxy-rules-qx
+HOST,rocket.plexpt.com,custom-proxy-rules-qx
 
 # 订阅
 HOST-SUFFIX,170203.xyz,custom-proxy-rules-qx
@@ -45,3 +57,23 @@ HOST,cdn-api.moeu.top,custom-proxy-rules-qx
 HOST,dadada.acaisbest.com,custom-proxy-rules-qx
 HOST,shop.10520.click,custom-proxy-rules-qx
 HOST,syyn.1.passwallwall.life,custom-proxy-rules-qx
+HOST,syyncdn.1010520.click,custom-proxy-rules-qx
+HOST,go.10520.click,custom-proxy-rules-qx
+
+
+# 梯子网站
+HOST-SUFFIX,52pokemon.cc,custom-proxy-rules-qx
+HOST-SUFFIX,love.52pokemon.cc,custom-proxy-rules-qx
+
+
+  # PT 网站
+HOST,hhan.club,custom-proxy-rules-qx
+HOST,hhanclub.top,custom-proxy-rules-qx
+HOST,rousi.zip,custom-proxy-rules-qx
+HOST,www.yemapt.org,custom-proxy-rules-qx
+HOST,ptvicomo.net,custom-proxy-rules-qx
+HOST,tracker.ptvicomo.net,custom-proxy-rules-qx
+HOST,share.ilolicon.com,custom-proxy-rules-qx
+HOST,www.icc2022.com,custom-proxy-rules-qx
+
+HOST,www.hdkyl.in,custom-proxy-rules-qx

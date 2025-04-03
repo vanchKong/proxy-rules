@@ -25,6 +25,12 @@ HOST,i.mij.rip,custom-proxy-rules-qx
 HOST,mjj.today,custom-proxy-rules-qx
 HOST,shop.edumails.org,custom-proxy-rules-qx
 HOST,us.mailschool.me,custom-proxy-rules-qx
+HOST,i.miji.bid,custom-proxy-rules-qx
+HOST,hello.cloudcone.com,custom-proxy-rules-qx
+HOST,www.qbittorrent.org,custom-proxy-rules-qx
+HOST,img.imgdd.com,custom-proxy-rules-qx
+HOST,pting.club,custom-proxy-rules-qx
+HOST,img.erpweb.eu.org,custom-proxy-rules-qx
 
 # 订阅
 HOST-SUFFIX,170203.xyz,custom-proxy-rules-qx

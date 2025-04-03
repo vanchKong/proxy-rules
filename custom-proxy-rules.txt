@@ -26,6 +26,12 @@ payload:
   - DOMAIN,mjj.today
   - DOMAIN,shop.edumails.org
   - DOMAIN,us.mailschool.me
+  - DOMAIN,i.miji.bid
+  - DOMAIN,hello.cloudcone.com
+  - DOMAIN,www.qbittorrent.org
+  - DOMAIN,img.imgdd.com
+  - DOMAIN,pting.club
+  - DOMAIN,img.erpweb.eu.org
 
   # 订阅
   - DOMAIN-SUFFIX,170203.xyz

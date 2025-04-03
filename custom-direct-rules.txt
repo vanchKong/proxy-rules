@@ -7,3 +7,10 @@ payload:
   - DOMAIN,console.bce.baidu.com
   - DOMAIN,login.bce.baidu.com
   - DOMAIN,canyouseeme.org
+  - DOMAIN,greencloudvps.com
+  - IP-CIDR,152.53.20.228/32
+  - IP-CIDR,89.58.18.169/32
+  - IP-CIDR,89.58.63.177/32
+  - IP-CIDR,144.76.112.116/32
+  - IP-CIDR,185.207.125.226/32
+  - IP-CIDR,152.53.131.216/32

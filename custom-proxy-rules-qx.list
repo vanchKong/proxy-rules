@@ -37,6 +37,9 @@ HOST,paste.spiritlhl.net,custom-proxy-rules-qx
 HOST,cdn-fusion.imgcdn.store,custom-proxy-rules-qx
 HOST,www.invites.fun,custom-proxy-rules-qx
 HOST,rocket.plexpt.com,custom-proxy-rules-qx
+HOST,tz.nsrx.ru
+HOST,mfmao.de
+HOST,blog.haoi.net
 
 # 订阅
 HOST-SUFFIX,170203.xyz,custom-proxy-rules-qx

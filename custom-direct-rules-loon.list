@@ -6,6 +6,13 @@ DOMAIN,haveibeenpwned.com
 DOMAIN,console.bce.baidu.com
 DOMAIN,login.bce.baidu.com
 DOMAIN,canyouseeme.org
+DOMAIN,greencloudvps.com
+IP-CIDR,152.53.20.228/32
+IP-CIDR,89.58.18.169/32
+IP-CIDR,89.58.63.177/32
+IP-CIDR,144.76.112.116/32
+IP-CIDR,185.207.125.226/32
+IP-CIDR,152.53.131.216/32
 DOMAIN-SUFFIX,cloudlayer.icu
 DOMAIN-SUFFIX,docker.1panel.dev
 DOMAIN-SUFFIX,docker.1panel.live
@@ -23,7 +30,7 @@ IP-CIDR6,2a14:7dc0:100:101:101::582/128
 IP-CIDR,46.232.60.235/32
 DOMAIN,bu.dusays.com
 
-  # PT 网站
+# PT 网站
 DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,m-team.io
 DOMAIN-SUFFIX,springsunday.net

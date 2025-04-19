@@ -25,6 +25,11 @@ IP-CIDR,45.8.113.112/32,custom-direct-rules-qx
 IP-CIDR6,2a14:7dc0:100:101:101::582/128,custom-direct-rules-qx
 IP-CIDR,46.232.60.235/32,custom-direct-rules-qx
 HOST,bu.dusays.com,custom-direct-rules-qx
+- IP-CIDR,129.146.112.183/32,custom-direct-rules-qx
+HOST,yxvm.com,custom-direct-rules-qx
+HOST-SUFFIX,customercontrolpanel.de,custom-direct-rules-qx
+HOST-SUFFIX,servercontrolpanel.de,custom-direct-rules-qx
+HOST-SUFFIX,paypal.com,custom-direct-rules-qx
 
 
   # PT 网站

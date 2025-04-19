@@ -30,6 +30,11 @@ payload:
   - IP-CIDR6,2a14:7dc0:100:101:101::582/128
   - IP-CIDR,46.232.60.235/32
   - DOMAIN,bu.dusays.com
+  - IP-CIDR,129.146.112.183/32
+  - DOMAIN,yxvm.com
+  - DOMAIN-SUFFIX,customercontrolpanel.de
+  - DOMAIN-SUFFIX,servercontrolpanel.de
+  - DOMAIN-SUFFIX,paypal.com
 
   # PT 网站
   - DOMAIN-SUFFIX,m-team.cc

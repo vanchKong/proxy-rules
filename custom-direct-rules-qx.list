@@ -8,7 +8,6 @@ HOST,login.bce.baidu.com,custom-direct-rules-qx
 HOST,canyouseeme.org,custom-direct-rules-qx
 HOST,greencloudvps.com,custom-proxy-rules-qx
 IP-CIDR,152.53.20.228/32,custom-proxy-rules-qx
-IP-CIDR,89.58.18.169/32,custom-proxy-rules-qx
 IP-CIDR,89.58.63.177/32,custom-proxy-rules-qx
 IP-CIDR,144.76.112.116/32,custom-proxy-rules-qx
 IP-CIDR,185.207.125.226/32,custom-proxy-rules-qx
@@ -25,11 +24,16 @@ IP-CIDR,45.8.113.112/32,custom-direct-rules-qx
 IP-CIDR6,2a14:7dc0:100:101:101::582/128,custom-direct-rules-qx
 IP-CIDR,46.232.60.235/32,custom-direct-rules-qx
 HOST,bu.dusays.com,custom-direct-rules-qx
-- IP-CIDR,129.146.112.183/32,custom-direct-rules-qx
 HOST,yxvm.com,custom-direct-rules-qx
 HOST-SUFFIX,customercontrolpanel.de,custom-direct-rules-qx
 HOST-SUFFIX,servercontrolpanel.de,custom-direct-rules-qx
 HOST-SUFFIX,paypal.com,custom-direct-rules-qx
+HOST-SUFFIX,hetzner.com
+HOST-SUFFIX,idenfy.com
+HOST,checkout.stripe.com
+HOST-SUFFIX,uvuu.de
+HOST-SUFFIX,chaotian.de
+HOST-SUFFIX,netcup.com
 
 
   # PT 网站

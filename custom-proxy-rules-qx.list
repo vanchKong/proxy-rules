@@ -46,6 +46,8 @@ HOST,rocket.plexpt.com,custom-proxy-rules-qx
 HOST,tz.nsrx.ru
 HOST,mfmao.de
 HOST,blog.haoi.net
+HOST,pic.pting.club
+HOST,www.lsky.pro
 
 # 订阅
 HOST-SUFFIX,170203.xyz,custom-proxy-rules-qx

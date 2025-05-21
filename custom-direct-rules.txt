@@ -9,7 +9,6 @@ payload:
   - DOMAIN,canyouseeme.org
   - DOMAIN,greencloudvps.com
   - IP-CIDR,152.53.20.228/32
-  - IP-CIDR,89.58.18.169/32
   - IP-CIDR,89.58.63.177/32
   - IP-CIDR,144.76.112.116/32
   - IP-CIDR,185.207.125.226/32
@@ -30,11 +29,17 @@ payload:
   - IP-CIDR6,2a14:7dc0:100:101:101::582/128
   - IP-CIDR,46.232.60.235/32
   - DOMAIN,bu.dusays.com
-  - IP-CIDR,129.146.112.183/32
   - DOMAIN,yxvm.com
   - DOMAIN-SUFFIX,customercontrolpanel.de
   - DOMAIN-SUFFIX,servercontrolpanel.de
   - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,hetzner.com
+  - DOMAIN-SUFFIX,idenfy.com
+  - DOMAIN,checkout.stripe.com
+  - DOMAIN-SUFFIX,uvuu.de
+  - DOMAIN-SUFFIX,chaotian.de
+  - PROCESS-NAME,Cursor Helper (Plugin)
+  - DOMAIN-SUFFIX,netcup.com
 
   # PT 网站
   - DOMAIN-SUFFIX,m-team.cc

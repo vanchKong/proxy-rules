@@ -66,6 +66,7 @@ payload:
   - DOMAIN,go.10520.click
   - DOMAIN,pic.pting.club
   - DOMAIN,www.lsky.pro
+  - DOMAIN,pixhost.to
 
   # 梯子网站
   - DOMAIN-SUFFIX,52pokemon.cc

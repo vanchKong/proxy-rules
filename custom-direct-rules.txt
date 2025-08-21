@@ -40,6 +40,9 @@ payload:
   - DOMAIN-SUFFIX,chaotian.de
   - PROCESS-NAME,Cursor Helper (Plugin)
   - DOMAIN-SUFFIX,netcup.com
+  - DOMAIN,image.dooo.ng
+  - DOMAIN,user.hikeba.club
+  - DOMAIN,pingtas.qq.com
 
   # PT 网站
   - DOMAIN-SUFFIX,m-team.cc

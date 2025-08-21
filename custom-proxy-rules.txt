@@ -47,6 +47,7 @@ payload:
   - DOMAIN,tz.nsrx.ru
   - DOMAIN,mfmao.de
   - DOMAIN,blog.haoi.net
+  - DOMAIN,pixhost.to
 
   # 订阅
   - DOMAIN-SUFFIX,170203.xyz
@@ -69,6 +70,7 @@ payload:
   # 梯子网站
   - DOMAIN-SUFFIX,52pokemon.cc
   - DOMAIN-SUFFIX,love.52pokemon.cc
+  - DOMAIN,love.521pokemon.com
 
   # PT 网站
   - DOMAIN,hhan.club
@@ -79,5 +81,4 @@ payload:
   - DOMAIN,tracker.ptvicomo.net
   - DOMAIN,share.ilolicon.com
   - DOMAIN,www.icc2022.com
-
   - DOMAIN,www.hdkyl.in

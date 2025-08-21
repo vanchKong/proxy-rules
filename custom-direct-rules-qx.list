@@ -28,12 +28,15 @@ HOST,yxvm.com,custom-direct-rules-qx
 HOST-SUFFIX,customercontrolpanel.de,custom-direct-rules-qx
 HOST-SUFFIX,servercontrolpanel.de,custom-direct-rules-qx
 HOST-SUFFIX,paypal.com,custom-direct-rules-qx
-HOST-SUFFIX,hetzner.com
-HOST-SUFFIX,idenfy.com
-HOST,checkout.stripe.com
-HOST-SUFFIX,uvuu.de
-HOST-SUFFIX,chaotian.de
-HOST-SUFFIX,netcup.com
+HOST-SUFFIX,hetzner.com,custom-direct-rules-qx
+HOST-SUFFIX,idenfy.com,custom-direct-rules-qx
+HOST,checkout.stripe.com,custom-direct-rules-qx
+HOST-SUFFIX,uvuu.de,custom-direct-rules-qx
+HOST-SUFFIX,chaotian.de,custom-direct-rules-qx
+HOST-SUFFIX,netcup.com,custom-direct-rules-qx
+HOST,image.dooo.ng,custom-direct-rules-qx
+HOST,user.hikeba.club,custom-direct-rules-qx
+HOST,pingtas.qq.com,custom-direct-rules-qx
 
 
   # PT 网站

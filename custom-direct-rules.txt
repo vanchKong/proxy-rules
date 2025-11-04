@@ -43,6 +43,9 @@ payload:
   - DOMAIN,image.dooo.ng
   - DOMAIN,user.hikeba.club
   - DOMAIN,pingtas.qq.com
+  - DOMAIN-SUFFIX,imgbox.com
+  # emby
+  - DOMAIN-SUFFIX,emos.lol
 
   # PT 网站
   - DOMAIN-SUFFIX,m-team.cc

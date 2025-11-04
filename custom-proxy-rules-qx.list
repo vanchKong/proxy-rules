@@ -49,6 +49,7 @@ HOST,blog.haoi.net,custom-proxy-rules-qx
 HOST,pic.pting.club,custom-proxy-rules-qx
 HOST,www.lsky.pro,custom-proxy-rules-qx
 HOST,pixhost.to,custom-proxy-rules-qx
+HOST,knjc.cfd,custom-proxy-rules-qx
 
 # 订阅
 HOST-SUFFIX,170203.xyz,custom-proxy-rules-qx

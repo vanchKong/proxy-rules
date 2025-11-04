@@ -48,6 +48,7 @@ payload:
   - DOMAIN,mfmao.de
   - DOMAIN,blog.haoi.net
   - DOMAIN,pixhost.to
+  - DOMAIN,knjc.cfd
 
   # 订阅
   - DOMAIN-SUFFIX,170203.xyz

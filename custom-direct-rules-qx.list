@@ -40,6 +40,9 @@ HOST,pingtas.qq.com,custom-direct-rules-qx
 HOST-SUFFIX,imgbox.com,custom-direct-rules-qx
 # emby
 HOST-SUFFIX,emos.lol,custom-direct-rules-qx
+HOST-SUFFIX,embyapp.top,custom-direct-rules-qx
+HOST-SUFFIX,okemby.org,custom-direct-rules-qx
+HOST-SUFFIX,longemby.com,custom-direct-rules-qx
 
 
 # PT 网站

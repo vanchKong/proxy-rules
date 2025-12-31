@@ -46,6 +46,9 @@ payload:
   - DOMAIN-SUFFIX,imgbox.com
   # emby
   - DOMAIN-SUFFIX,emos.lol
+  - DOMAIN-SUFFIX,embyapp.top
+  - DOMAIN-SUFFIX,okemby.org
+  - DOMAIN-SUFFIX,longemby.com
 
   # PT 网站
   - DOMAIN-SUFFIX,m-team.cc

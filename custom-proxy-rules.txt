@@ -47,6 +47,8 @@ payload:
   - DOMAIN,tz.nsrx.ru
   - DOMAIN,mfmao.de
   - DOMAIN,blog.haoi.net
+  - DOMAIN,pic.pting.club
+  - DOMAIN,www.lsky.pro
   - DOMAIN,pixhost.to
   - DOMAIN,knjc.cfd
 
@@ -65,9 +67,9 @@ payload:
   - DOMAIN,syyn.1.passwallwall.life
   - DOMAIN,syyncdn.1010520.click
   - DOMAIN,go.10520.click
-  - DOMAIN,pic.pting.club
-  - DOMAIN,www.lsky.pro
-  - DOMAIN,pixhost.to
+
+  # emby
+  - DOMAIN,lite.cn2gias.uk
 
   # 梯子网站
   - DOMAIN-SUFFIX,52pokemon.cc

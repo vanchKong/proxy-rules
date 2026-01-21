@@ -1,0 +1,52 @@
+# emby 观影路线
+# Emos
+DOMAIN,emos.best
+# sntp
+DOMAIN,lite.cn2gias.uk
+# OKEmby
+DOMAIN,link00.okemby.org
+DOMAIN,link01.okemby.org
+# BCXC
+DOMAIN,xc.l0323.top
+DOMAIN,a.l0323.top
+DOMAIN,e.iemby.cn
+# 龙服
+DOMAIN,hkcdn.longemby.com
+# HG
+DOMAIN,emby.dnscf.dpdns.org
+# HELLO HK
+IP-CIDR,199.188.198.202/32
+# Levilde Luminia
+DOMAIN,emby.levilde.bond
+# msky
+DOMAIN,wcf.3msky.com
+# HKA
+DOMAIN,hka-emby.aliz.work
+# nyamedia
+DOMAIN,emby.bangumi.ca
+# HDSKY 经典
+DOMAIN,nl2.lovehd.de
+DOMAIN,lv1.lovehd.de
+DOMAIN,lv2.lovehd.de
+DOMAIN,nl1.lovehd.de
+DOMAIN,nl2.lovehd.de
+DOMAIN,us.lovehd.de
+DOMAIN,hk.lovehd.de
+DOMAIN,de1.lovehd.de
+DOMAIN,de2.lovehd.de
+DOMAIN,de3.lovehd.de
+# HDSKY WEB
+DOMAIN,t.nL.wmuu.de
+DOMAIN,d.auto.wmuu.de
+DOMAIN,dL.auto.wmuu.de
+DOMAIN,dy.auto.wmuu.de
+DOMAIN,dLy.auto.wmuu.de
+# 壮壮
+DOMAIN,tv.embyapp.top
+
+
+# Emby 发卡
+DOMAIN,u.3msky.com
+DOMAIN-SUFFIX,nvidia.rip
+DOMAIN,shop.ii00.cc
+DOMAIN,faka.embymv.link

@@ -25,7 +25,6 @@ payload:
   - DOMAIN,ghproxy.net
   - DOMAIN,www.paypal.com
   - DOMAIN,ui.886663.xyz
-  - IP-CIDR,45.8.113.112/32
   - IP-CIDR6,2a14:7dc0:100:101:101::582/128
   - IP-CIDR,46.232.60.235/32
   - DOMAIN,bu.dusays.com

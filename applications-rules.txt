@@ -86,3 +86,4 @@ payload:
   - PROCESS-NAME,Overwolf.exe
   - PROCESS-NAME,OverwolfBrowser.exe
   - PROCESS-NAME,OverwolfUpdater.exe
+  - PROCESS-NAME,Notion Helper

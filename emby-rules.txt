@@ -12,7 +12,7 @@ payload:
   - DOMAIN,a.l0323.top
   - DOMAIN,e.iemby.cn
   # 龙服
-  - DOMAIN,hkcdn.longemby.com
+  - DOMAIN,cfcdn.longemby.com
   # HG
   - DOMAIN,emby.dnscf.dpdns.org
   # HELLO HK
@@ -51,3 +51,5 @@ payload:
   - DOMAIN-SUFFIX,nvidia.rip
   - DOMAIN,shop.ii00.cc
   - DOMAIN,faka.embymv.link
+  - DOMAIN,store.alphatvapp.top
+  - DOMAIN,store.lyrebirdemby.com

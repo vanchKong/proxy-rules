@@ -12,7 +12,7 @@ HOST,xc.l0323.top,custom-direct-rules-qx
 HOST,a.l0323.top,custom-direct-rules-qx
 HOST,e.iemby.cn,custom-direct-rules-qx
 # 龙服
-HOST,hkcdn.longemby.com,custom-direct-rules-qx
+HOST,cfcdn.longemby.com,custom-direct-rules-qx
 # HG
 HOST,emby.dnscf.dpdns.org,custom-direct-rules-qx
 # HELLO HK
@@ -51,3 +51,5 @@ HOST,u.3msky.com
 HOST-SUFFIX,nvidia.rip
 HOST,shop.ii00.cc
 HOST,faka.embymv.link
+HOST,store.alphatvapp.top
+HOST,store.lyrebirdemby.com

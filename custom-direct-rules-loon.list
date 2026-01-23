@@ -43,6 +43,7 @@ DOMAIN,user.hikeba.club
 DOMAIN,pingtas.qq.com
 DOMAIN-SUFFIX,imgbox.com
 DOMAIN-SUFFIX,notion.so
+IP-CIDR,87.83.110.187/22 # YXVM
 
 # PT 网站
 DOMAIN-SUFFIX,m-team.cc
@@ -149,3 +150,9 @@ DOMAIN,hdfans.org
 DOMAIN,pandapt.net
 DOMAIN,sunnytk.top
 DOMAIN,tracker.sunnypt.top
+
+
+emby
+# 龙服
+DOMAIN,hkcdn.longemby.com
+DOMAIN,jpcdn.longemby.com

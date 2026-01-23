@@ -38,6 +38,7 @@ HOST,user.hikeba.club,custom-direct-rules-qx
 HOST,pingtas.qq.com,custom-direct-rules-qx
 HOST-SUFFIX,imgbox.com,custom-direct-rules-qx
 HOST-SUFFIX,notion.so,custom-direct-rules-qx
+IP-CIDR,87.83.110.187/22,custom-direct-rules-qx # YXVM
 
 
 # PT 网站
@@ -143,3 +144,10 @@ HOST,hdfans.org,custom-direct-rules-qx
 HOST,pandapt.net,custom-direct-rules-qx
 HOST,sunnytk.top,custom-direct-rules-qx
 HOST,tracker.sunnypt.top,custom-direct-rules-qx
+
+
+
+emby
+# 龙服
+HOST,hkcdn.longemby.com,custom-direct-rules-qx
+HOST,jpcdn.longemby.com,custom-direct-rules-qx

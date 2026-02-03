@@ -156,3 +156,10 @@ emby
 # 龙服
 DOMAIN,hkcdn.longemby.com
 DOMAIN,jpcdn.longemby.com
+
+# Mirai
+DOMAIN,stream-1.miraiemby.com
+DOMAIN,stream-1.jiedaibao.gs
+DOMAIN,stream-3.miraiemby.com
+DOMAIN,mi2.miraiemby.com
+DOMAIN,mi3.miraiemby.com

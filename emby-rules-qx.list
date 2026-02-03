@@ -1,49 +1,55 @@
 # emby 观影路线
-HOST-SUFFIX,emos.lol,custom-direct-rules-qx
+HOST-SUFFIX,emos.lol,emby-rules-qx
 # Emos
-HOST,emos.best,custom-direct-rules-qx
+HOST,emos.best,emby-rules-qx
 # sntp
-HOST,lite.cn2gias.uk,custom-direct-rules-qx
+HOST,lite.cn2gias.uk,emby-rules-qx
 # OKEmby
-HOST,link00.okemby.org,custom-direct-rules-qx
-HOST,link01.okemby.org,custom-direct-rules-qx
+HOST,link00.okemby.org,emby-rules-qx
+HOST,link01.okemby.org,emby-rules-qx
 # BCXC
-HOST,xc.l0323.top,custom-direct-rules-qx
-HOST,a.l0323.top,custom-direct-rules-qx
-HOST,e.iemby.cn,custom-direct-rules-qx
+HOST,xc.l0323.top,emby-rules-qx
+HOST,a.l0323.top,emby-rules-qx
+HOST,e.iemby.cn,emby-rules-qx
 # 龙服
-HOST,cfcdn.longemby.com,custom-direct-rules-qx
+HOST,cfcdn.longemby.com,emby-rules-qx
 # HG
-HOST,emby.dnscf.dpdns.org,custom-direct-rules-qx
+HOST,emby.dnscf.dpdns.org,emby-rules-qx
 # HELLO HK
-IP-CIDR,199.188.198.202/32,custom-direct-rules-qx
+IP-CIDR,199.188.198.202/32,emby-rules-qx
 # Levilde Luminia
-HOST,emby.levilde.bond,custom-direct-rules-qx
+HOST,emby.levilde.bond,emby-rules-qx
 # msky
-HOST,wcf.3msky.com,custom-direct-rules-qx
+HOST,wcf.3msky.com,emby-rules-qx
 # HKA
-HOST,hka-emby.aliz.work,custom-direct-rules-qx
+HOST,hka-emby.aliz.work,emby-rules-qx
 # nyamedia
-HOST,emby.bangumi.ca,custom-direct-rules-qx
+HOST,emby.bangumi.ca,emby-rules-qx
 # HDSKY 经典
-HOST,nl2.lovehd.de,custom-direct-rules-qx
-HOST,lv1.lovehd.de,custom-direct-rules-qx
-HOST,lv2.lovehd.de,custom-direct-rules-qx
-HOST,nl1.lovehd.de,custom-direct-rules-qx
-HOST,nl2.lovehd.de,custom-direct-rules-qx
-HOST,us.lovehd.de,custom-direct-rules-qx
-HOST,hk.lovehd.de,custom-direct-rules-qx
-HOST,de1.lovehd.de,custom-direct-rules-qx
-HOST,de2.lovehd.de,custom-direct-rules-qx
-HOST,de3.lovehd.de,custom-direct-rules-qx
+HOST,nl2.lovehd.de,emby-rules-qx
+HOST,lv1.lovehd.de,emby-rules-qx
+HOST,lv2.lovehd.de,emby-rules-qx
+HOST,nl1.lovehd.de,emby-rules-qx
+HOST,nl2.lovehd.de,emby-rules-qx
+HOST,us.lovehd.de,emby-rules-qx
+HOST,hk.lovehd.de,emby-rules-qx
+HOST,de1.lovehd.de,emby-rules-qx
+HOST,de2.lovehd.de,emby-rules-qx
+HOST,de3.lovehd.de,emby-rules-qx
 # HDSKY WEB
-HOST,t.nL.wmuu.de,custom-direct-rules-qx
-HOST,d.auto.wmuu.de,custom-direct-rules-qx
-HOST,dL.auto.wmuu.de,custom-direct-rules-qx
-HOST,dy.auto.wmuu.de,custom-direct-rules-qx
-HOST,dLy.auto.wmuu.de,custom-direct-rules-qx
+HOST,t.nL.wmuu.de,emby-rules-qx
+HOST,d.auto.wmuu.de,emby-rules-qx
+HOST,dL.auto.wmuu.de,emby-rules-qx
+HOST,dy.auto.wmuu.de,emby-rules-qx
+HOST,dLy.auto.wmuu.de,emby-rules-qx
 # 壮壮
-HOST,tv.embyapp.top,custom-direct-rules-qx
+HOST,tv.embyapp.top,emby-rules-qx
+# 我身无拘/Faemby
+HOST,faemby.vip,emby-rules-qx
+# CookieEmby
+HOST,emby.nas.edu.kg,emby-rules-qx
+# Shrek
+HOST,public.shrekmedia.org,emby-rules-qx
 
 
 # Emby 发卡

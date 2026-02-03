@@ -151,3 +151,10 @@ emby
 # 龙服
 HOST,hkcdn.longemby.com,custom-direct-rules-qx
 HOST,jpcdn.longemby.com,custom-direct-rules-qx
+
+# Mirai
+HOST,stream-1.miraiemby.com,custom-direct-rules-qx
+HOST,stream-1.jiedaibao.gs,custom-direct-rules-qx
+HOST,stream-3.miraiemby.com,custom-direct-rules-qx
+HOST,mi2.miraiemby.com,custom-direct-rules-qx
+HOST,mi3.miraiemby.com,custom-direct-rules-qx

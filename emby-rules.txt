@@ -44,6 +44,12 @@ payload:
   - DOMAIN,dLy.auto.wmuu.de
   # 壮壮
   - DOMAIN,tv.embyapp.top
+  # 我身无拘/Faemby
+  - DOMAIN,faemby.vip
+  # CookieEmby
+  - DOMAIN,emby.nas.edu.kg
+  # Shrek
+  - DOMAIN,public.shrekmedia.org
 
 
   # Emby 发卡

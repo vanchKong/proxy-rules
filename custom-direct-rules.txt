@@ -161,3 +161,15 @@ payload:
   - DOMAIN,stream-3.miraiemby.com
   - DOMAIN,mi2.miraiemby.com
   - DOMAIN,mi3.miraiemby.com
+
+  # 蘑菇网盘服
+  - DOMAIN,wf.vban.xyz
+
+  # MICU
+  - DOMAIN,tv.micu.hk
+
+  # Youno
+  - DOMAIN,plushk1.younoyes.com
+
+  # UHD
+  - DOMAIN,smart.uhdnow.com

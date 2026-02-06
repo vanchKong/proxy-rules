@@ -7,10 +7,6 @@ payload:
   # OKEmby
   - DOMAIN,link00.okemby.org
   - DOMAIN,link01.okemby.org
-  # BCXC
-  - DOMAIN,xc.l0323.top
-  - DOMAIN,a.l0323.top
-  - DOMAIN,e.iemby.cn
   # 龙服
   - DOMAIN,cfcdn.longemby.com
   # HG

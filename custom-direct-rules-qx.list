@@ -151,22 +151,21 @@ emby
 # 龙服
 HOST,hkcdn.longemby.com,custom-direct-rules-qx
 HOST,jpcdn.longemby.com,custom-direct-rules-qx
-
 # Mirai
 HOST,stream-1.miraiemby.com,custom-direct-rules-qx
 HOST,stream-1.jiedaibao.gs,custom-direct-rules-qx
 HOST,stream-3.miraiemby.com,custom-direct-rules-qx
 HOST,mi2.miraiemby.com,custom-direct-rules-qx
 HOST,mi3.miraiemby.com,custom-direct-rules-qx
-
 # 蘑菇网盘服
 HOST,wf.vban.xyz
-
 # MICU
 HOST,tv.micu.hk
-
 # Youno
 HOST,plushk1.younoyes.com
-
 # UHD
 HOST,smart.uhdnow.com
+# BCXC
+HOST,xc.l0323.top,emby-rules-qx
+HOST,a.l0323.top,emby-rules-qx
+HOST,e.iemby.cn,emby-rules-qx

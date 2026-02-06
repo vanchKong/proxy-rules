@@ -154,22 +154,21 @@ payload:
   # 龙服
   - DOMAIN,hkcdn.longemby.com
   - DOMAIN,jpcdn.longemby.com
-
   # Mirai
   - DOMAIN,stream-1.miraiemby.com
   - DOMAIN,stream-1.jiedaibao.gs
   - DOMAIN,stream-3.miraiemby.com
   - DOMAIN,mi2.miraiemby.com
   - DOMAIN,mi3.miraiemby.com
-
   # 蘑菇网盘服
   - DOMAIN,wf.vban.xyz
-
   # MICU
   - DOMAIN,tv.micu.hk
-
   # Youno
   - DOMAIN,plushk1.younoyes.com
-
   # UHD
   - DOMAIN,smart.uhdnow.com
+  # BCXC
+  - DOMAIN,xc.l0323.top
+  - DOMAIN,a.l0323.top
+  - DOMAIN,e.iemby.cn

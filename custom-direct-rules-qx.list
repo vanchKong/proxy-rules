@@ -158,16 +158,20 @@ HOST,stream-3.miraiemby.com,custom-direct-rules-qx
 HOST,mi2.miraiemby.com,custom-direct-rules-qx
 HOST,mi3.miraiemby.com,custom-direct-rules-qx
 # 蘑菇网盘服
-HOST,wf.vban.xyz
+HOST,wf.vban.xyz,custom-direct-rules-qx
 # MICU
-HOST,tv.micu.hk
+HOST,tv.micu.hk,custom-direct-rules-qx
 # Youno
-HOST,plushk1.younoyes.com
+HOST,plushk1.younoyes.com,custom-direct-rules-qx
 # UHD
-HOST,smart.uhdnow.com
+HOST,smart.uhdnow.com,custom-direct-rules-qx
 # BCXC
-HOST,xc.l0323.top,emby-rules-qx
-HOST,a.l0323.top,emby-rules-qx
-HOST,e.iemby.cn,emby-rules-qx
+HOST,xc.l0323.top,custom-direct-rules-qx
+HOST,a.l0323.top,custom-direct-rules-qx
+HOST,e.iemby.cn,custom-direct-rules-qx
 # luxrealm
-HOST,cdn.luxrealm.space,emby-rules-qx
+HOST,cdn.luxrealm.space,custom-direct-rules-qx
+# 小虾米
+HOST,emby.kingemby.xyz,custom-direct-rules-qx
+HOST,fd1.kingemby.xyz,custom-direct-rules-qx
+HOST,fd.kingemby.xyz,custom-direct-rules-qx

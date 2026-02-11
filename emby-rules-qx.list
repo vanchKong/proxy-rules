@@ -49,9 +49,10 @@ HOST,public.shrekmedia.org,emby-rules-qx
 
 
 # Emby 发卡
-HOST,u.3msky.com
-HOST-SUFFIX,nvidia.rip
-HOST,shop.ii00.cc
-HOST,faka.embymv.link
-HOST,store.alphatvapp.top
-HOST,store.lyrebirdemby.com
+HOST,u.3msky.com,emby-rules-qx
+HOST-SUFFIX,nvidia.rip,emby-rules-qx
+HOST,shop.ii00.cc,emby-rules-qx
+HOST,faka.embymv.link,emby-rules-qx
+HOST,store.alphatvapp.top,emby-rules-qx
+HOST,store.lyrebirdemby.com,emby-rules-qx
+HOST,store.alphatvapp.top,emby-rules-qx

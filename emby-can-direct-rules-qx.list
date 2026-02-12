@@ -1,0 +1,46 @@
+# emby 能直连的路线
+# Emos
+HOST,emos.best,emby-proxy-rules-qx
+# OKEmby
+HOST,link00.okemby.org,emby-proxy-rules-qx
+HOST,link01.okemby.org,emby-proxy-rules-qx
+# 龙服
+HOST,cfcdn.longemby.com,emby-proxy-rules-qx
+# HG
+HOST,emby.dnscf.dpdns.org,emby-proxy-rules-qx
+# HELLO HK
+HOST,hellohk.me,emby-proxy-rules-qx
+# msky
+HOST,wcf.3msky.com,emby-proxy-rules-qx
+# nyamedia
+HOST,emby.bangumi.ca,emby-proxy-rules-qx
+# HDSKY 经典
+HOST,nl2.lovehd.de,emby-proxy-rules-qx
+HOST,lv1.lovehd.de,emby-proxy-rules-qx
+HOST,lv2.lovehd.de,emby-proxy-rules-qx
+HOST,nl1.lovehd.de,emby-proxy-rules-qx
+HOST,nl2.lovehd.de,emby-proxy-rules-qx
+HOST,us.lovehd.de,emby-proxy-rules-qx
+HOST,hk.lovehd.de,emby-proxy-rules-qx
+HOST,de1.lovehd.de,emby-proxy-rules-qx
+HOST,de2.lovehd.de,emby-proxy-rules-qx
+HOST,de3.lovehd.de,emby-proxy-rules-qx
+# HDSKY WEB
+HOST,t.nL.wmuu.de,emby-proxy-rules-qx
+HOST,d.auto.wmuu.de,emby-proxy-rules-qx
+HOST,dL.auto.wmuu.de,emby-proxy-rules-qx
+HOST,dy.auto.wmuu.de,emby-proxy-rules-qx
+HOST,dLy.auto.wmuu.de,emby-proxy-rules-qx
+# 壮壮
+HOST,tv.embyapp.top,emby-proxy-rules-qx
+# 我身无拘/Faemby
+HOST,faemby.vip,emby-proxy-rules-qx
+# CookieEmby
+HOST,emby.nas.edu.kg,emby-proxy-rules-qx
+# Shrek
+HOST,public.shrekmedia.org,emby-proxy-rules-qx
+# EmbyHello
+HOST,emby.istyboe.top,emby-proxy-rules-qx
+HOST,114514.fuckme.pushgoodcloud.com,emby-proxy-rules-qx
+# 牛逼
+HOST,772111.xyz,emby-proxy-rules-qx

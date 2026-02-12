@@ -146,8 +146,7 @@ HOST,sunnytk.top,custom-direct-rules-qx
 HOST,tracker.sunnypt.top,custom-direct-rules-qx
 
 
-
-emby
+# emby 直连路线
 # 龙服
 HOST,hkcdn.longemby.com,custom-direct-rules-qx
 HOST,jpcdn.longemby.com,custom-direct-rules-qx
@@ -175,3 +174,7 @@ HOST,cdn.luxrealm.space,custom-direct-rules-qx
 HOST,emby.kingemby.xyz,custom-direct-rules-qx
 HOST,fd1.kingemby.xyz,custom-direct-rules-qx
 HOST,fd.kingemby.xyz,custom-direct-rules-qx
+# Lily
+HOST,cdn.lilyemby.com
+HOST,tx.lilyemby.com
+HOST,aliyun.lilyemby.com

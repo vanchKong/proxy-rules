@@ -1,0 +1,18 @@
+# emby 只能挂梯的路线
+# sntp
+HOST,lite.cn2gias.uk,emby-proxy-rules-qx
+# Levilde Luminia
+HOST,emby.levilde.bond,emby-proxy-rules-qx
+# HKA
+HOST,hka-emby.aliz.work,emby-proxy-rules-qx
+
+
+
+# Emby 发卡
+HOST,u.3msky.com,emby-proxy-rules-qx
+HOST-SUFFIX,nvidia.rip,emby-proxy-rules-qx
+HOST,shop.ii00.cc,emby-proxy-rules-qx
+HOST,faka.embymv.link,emby-proxy-rules-qx
+HOST,store.alphatvapp.top,emby-proxy-rules-qx
+HOST,store.lyrebirdemby.com,emby-proxy-rules-qx
+HOST,store.alphatvapp.top,emby-proxy-rules-qx

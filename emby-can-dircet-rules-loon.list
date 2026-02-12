@@ -1,8 +1,6 @@
-# emby 观影路线
+# emby 能直连的路线
 # Emos
 DOMAIN,emos.best
-# sntp
-DOMAIN,lite.cn2gias.uk
 # OKEmby
 DOMAIN,link00.okemby.org
 DOMAIN,link01.okemby.org
@@ -11,13 +9,9 @@ DOMAIN,cfcdn.longemby.com
 # HG
 DOMAIN,emby.dnscf.dpdns.org
 # HELLO HK
-IP-CIDR,199.188.198.202/32
-# Levilde Luminia
-DOMAIN,emby.levilde.bond
+DOMAIN,hellohk.me
 # msky
 DOMAIN,wcf.3msky.com
-# HKA
-DOMAIN,hka-emby.aliz.work
 # nyamedia
 DOMAIN,emby.bangumi.ca
 # HDSKY 经典
@@ -45,13 +39,8 @@ DOMAIN,faemby.vip
 DOMAIN,emby.nas.edu.kg
 # Shrek
 DOMAIN,public.shrekmedia.org
-
-
-# Emby 发卡
-DOMAIN,u.3msky.com
-DOMAIN-SUFFIX,nvidia.rip
-DOMAIN,shop.ii00.cc
-DOMAIN,faka.embymv.link
-DOMAIN,store.alphatvapp.top
-DOMAIN,store.lyrebirdemby.com
-DOMAIN,store.alphatvapp.top
+# EmbyHello
+DOMAIN,emby.istyboe.top
+DOMAIN,114514.fuckme.pushgoodcloud.com
+# 牛逼
+DOMAIN,772111.xyz

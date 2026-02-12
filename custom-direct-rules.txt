@@ -151,6 +151,7 @@ payload:
   - DOMAIN,tracker.sunnypt.top
 
 
+# emby 直连路线
   # 龙服
   - DOMAIN,hkcdn.longemby.com
   - DOMAIN,jpcdn.longemby.com
@@ -178,3 +179,7 @@ payload:
   - DOMAIN,emby.kingemby.xyz
   - DOMAIN,fd1.kingemby.xyz
   - DOMAIN,fd.kingemby.xyz
+  # Lily
+  - DOMAIN,cdn.lilyemby.com
+  - DOMAIN,tx.lilyemby.com
+  - DOMAIN,aliyun.lilyemby.com

@@ -47,3 +47,4 @@ payload:
   - DOMAIN,772111.xyz
   # HOHAI
   - DOMAIN,emby-npo.hohai.eu.org
+  - DOMAIN,drive.hohai.eu.org

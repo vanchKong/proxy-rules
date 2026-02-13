@@ -162,6 +162,12 @@ HOST,wf.vban.xyz,custom-direct-rules-qx
 HOST,tv.micu.hk,custom-direct-rules-qx
 # Youno
 HOST,plushk1.younoyes.com,custom-direct-rules-qx
+HOST,plushk2.younoyes.com,custom-direct-rules-qx
+HOST,plusjp1.younoyes.com,custom-direct-rules-qx
+HOST,plusde1.younoyes.com,custom-direct-rules-qx
+HOST,plusus1.younoyes.com,custom-direct-rules-qx
+HOST,plusus2.younoyes.com,custom-direct-rules-qx
+HOST,plusus3.younoyes.com,custom-direct-rules-qx
 # UHD
 HOST,smart.uhdnow.com,custom-direct-rules-qx
 # BCXC

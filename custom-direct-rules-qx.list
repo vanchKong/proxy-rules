@@ -184,3 +184,6 @@ HOST,fd.kingemby.xyz,custom-direct-rules-qx
 HOST,cdn.lilyemby.com
 HOST,tx.lilyemby.com
 HOST,aliyun.lilyemby.com
+# 小姨子
+HOST,5.emby.yun
+HOST,emby.yun

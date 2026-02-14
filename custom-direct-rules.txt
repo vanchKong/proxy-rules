@@ -189,3 +189,6 @@ payload:
   - DOMAIN,cdn.lilyemby.com
   - DOMAIN,tx.lilyemby.com
   - DOMAIN,aliyun.lilyemby.com
+  # 小姨子
+  - DOMAIN,5.emby.yun
+  - DOMAIN,emby.yun

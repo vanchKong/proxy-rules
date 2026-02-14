@@ -194,3 +194,4 @@ payload:
   - DOMAIN,emby.yun
   # 惊蛰
   - DOMAIN,emby.jingzhe.pro
+  - DOMAIN,stream2.jingzhe.pro

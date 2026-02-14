@@ -181,9 +181,11 @@ HOST,emby.kingemby.xyz,custom-direct-rules-qx
 HOST,fd1.kingemby.xyz,custom-direct-rules-qx
 HOST,fd.kingemby.xyz,custom-direct-rules-qx
 # Lily
-HOST,cdn.lilyemby.com
-HOST,tx.lilyemby.com
-HOST,aliyun.lilyemby.com
+HOST,cdn.lilyemby.com,custom-direct-rules-qx
+HOST,tx.lilyemby.com,custom-direct-rules-qx
+HOST,aliyun.lilyemby.com,custom-direct-rules-qx
 # 小姨子
-HOST,5.emby.yun
-HOST,emby.yun
+HOST,5.emby.yun,custom-direct-rules-qx
+HOST,emby.yun,custom-direct-rules-qx
+# 惊蛰
+HOST,emby.jingzhe.pro,custom-direct-rules-qx

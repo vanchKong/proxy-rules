@@ -33,7 +33,7 @@ HOST,dy.auto.wmuu.de,emby-can-direct-rules-qx
 HOST,dLy.auto.wmuu.de,emby-can-direct-rules-qx
 # 壮壮
 HOST,tv.embyapp.top,emby-can-direct-rules-qx
-# 我身无拘/Faemby
+# 我身无拘/Faemby/unbond
 HOST,faemby.vip,emby-can-direct-rules-qx
 # CookieEmby
 HOST,emby.nas.edu.kg,emby-can-direct-rules-qx
@@ -47,3 +47,7 @@ HOST,772111.xyz,emby-can-direct-rules-qx
 # HOHAI
 HOST,emby-npo.hohai.eu.org,emby-can-direct-rules-qx
 HOST,drive.hohai.eu.org,emby-can-direct-rules-qx
+# KLEmby
+HOST,tyemby.klplay.top,emby-can-direct-rules-qx
+# 起点
+HOST,free.28.al,emby-can-direct-rules-qx

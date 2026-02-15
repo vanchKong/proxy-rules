@@ -34,7 +34,7 @@ payload:
   - DOMAIN,dLy.auto.wmuu.de
   # 壮壮
   - DOMAIN,tv.embyapp.top
-  # 我身无拘/Faemby
+  # 我身无拘/Faemby/unbond
   - DOMAIN,faemby.vip
   # CookieEmby
   - DOMAIN,emby.nas.edu.kg
@@ -48,3 +48,7 @@ payload:
   # HOHAI
   - DOMAIN,emby-npo.hohai.eu.org
   - DOMAIN,drive.hohai.eu.org
+  # KLEmby
+  - DOMAIN,tyemby.klplay.top
+  # 起点
+  - DOMAIN,free.28.al

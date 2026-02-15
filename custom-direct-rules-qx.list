@@ -160,7 +160,7 @@ HOST,mi3.miraiemby.com,custom-direct-rules-qx
 HOST,wf.vban.xyz,custom-direct-rules-qx
 # MICU
 HOST,tv.micu.hk,custom-direct-rules-qx
-# Youno
+# YounoPlus
 HOST,plushk1.younoyes.com,custom-direct-rules-qx
 HOST,plushk2.younoyes.com,custom-direct-rules-qx
 HOST,plusjp1.younoyes.com,custom-direct-rules-qx
@@ -176,6 +176,10 @@ HOST,a.l0323.top,custom-direct-rules-qx
 HOST,e.iemby.cn,custom-direct-rules-qx
 # luxrealm
 HOST,cdn.luxrealm.space,custom-direct-rules-qx
+# Liminal-Pro
+IP-CIDR,151.242.183.12,custom-direct-rules-qx
+HOST,limina.552554.xyz,custom-direct-rules-qx
+IP-CIDR,151.242.183.12,custom-direct-rules-qx
 # 小虾米
 HOST,emby.kingemby.xyz,custom-direct-rules-qx
 HOST,fd1.kingemby.xyz,custom-direct-rules-qx
@@ -190,3 +194,7 @@ HOST,emby.yun,custom-direct-rules-qx
 # 惊蛰
 HOST,emby.jingzhe.pro,custom-direct-rules-qx
 HOST,stream2.jingzhe.pro,custom-direct-rules-qx
+# 留影社
+HOST,ness1.xxqqx.cn,custom-direct-rules-qx
+# Peach 桃子
+DOMAIN,white.embymv.link,custom-direct-rules-qx

@@ -165,7 +165,7 @@ payload:
   - DOMAIN,wf.vban.xyz
   # MICU
   - DOMAIN,tv.micu.hk
-  # Youno
+  # YounoPlus
   - DOMAIN,plushk1.younoyes.com
   - DOMAIN,plushk2.younoyes.com
   - DOMAIN,plusjp1.younoyes.com
@@ -181,6 +181,10 @@ payload:
   - DOMAIN,e.iemby.cn
   # luxrealm
   - DOMAIN,cdn.luxrealm.space
+  # Liminal-Pro
+  - IP-CIDR,151.242.183.12
+  - DOMAIN,limina.552554.xyz
+  - IP-CIDR,151.242.183.12
   # 小虾米
   - DOMAIN,emby.kingemby.xyz
   - DOMAIN,fd1.kingemby.xyz
@@ -195,3 +199,7 @@ payload:
   # 惊蛰
   - DOMAIN,emby.jingzhe.pro
   - DOMAIN,stream2.jingzhe.pro
+  # 留影社
+  - DOMAIN,ness1.xxqqx.cn
+  # Peach 桃子
+  - DOMAIN,white.embymv.link

@@ -5,6 +5,8 @@ HOST,lite.cn2gias.uk,emby-proxy-rules-qx
 HOST,emby.levilde.bond,emby-proxy-rules-qx
 # HKA
 HOST,hka-emby.aliz.work,emby-proxy-rules-qx
+# PlayZ
+HOST,playzemby.mjji.de,emby-proxy-rules-qx
 
 
 
@@ -16,3 +18,4 @@ HOST,faka.embymv.link,emby-proxy-rules-qx
 HOST,store.alphatvapp.top,emby-proxy-rules-qx
 HOST,store.lyrebirdemby.com,emby-proxy-rules-qx
 HOST,store.alphatvapp.top,emby-proxy-rules-qx
+HOST,www.liminalnet.store,emby-proxy-rules-qx

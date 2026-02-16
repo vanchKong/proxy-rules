@@ -55,3 +55,15 @@ payload:
   - DOMAIN,free.28.al
   # 见手青
   - DOMAIN,jsq.vban.xyz
+  # Nayovo
+  - DOMAIN,nay.007.us.kg
+  # 叶子硬盘
+  - DOMAIN,yp.lyezi.cc
+  - DOMAIN,kuai1.lyezi.xyz
+  - DOMAIN,kuai2.lyezi.xyz
+  - DOMAIN,kuai3.lyezi.xyz
+  - DOMAIN,kuai5.lyezi.xyz
+  # 叶子网盘
+  - DOMAIN,wp.lyezi.cc
+  # 狗剩
+  - DOMAIN,gousen.cc.cd

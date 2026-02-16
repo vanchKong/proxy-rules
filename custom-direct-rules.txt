@@ -179,6 +179,7 @@ payload:
   - DOMAIN,xc.l0323.top
   - DOMAIN,a.l0323.top
   - DOMAIN,e.iemby.cn
+  - DOMAIN,media-qhxn-fj-person.qh6oss.ctyunxs.cn
   # luxrealm
   - DOMAIN,cdn.luxrealm.space
   # Liminal-Pro

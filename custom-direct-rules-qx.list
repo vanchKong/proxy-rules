@@ -197,4 +197,7 @@ HOST,stream2.jingzhe.pro,custom-direct-rules-qx
 # 留影社
 HOST,ness1.xxqqx.cn,custom-direct-rules-qx
 # Peach 桃子
-DOMAIN,white.embymv.link,custom-direct-rules-qx
+HOST,white.embymv.link,custom-direct-rules-qx
+# 月饼
+HOST,emby.,custom-direct-rules-qx
+HOST,a.emby.my,custom-direct-rules-qx

@@ -203,3 +203,6 @@ payload:
   - DOMAIN,ness1.xxqqx.cn
   # Peach 桃子
   - DOMAIN,white.embymv.link
+  # 月饼
+  - DOMAIN,emby.my
+  - DOMAIN,a.emby.my

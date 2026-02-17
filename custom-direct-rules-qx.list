@@ -178,9 +178,8 @@ HOST,media-qhxn-fj-person.qh6oss.ctyunxs.cn,custom-direct-rules-qx
 # luxrealm
 HOST,cdn.luxrealm.space,custom-direct-rules-qx
 # Liminal-Pro
-IP-CIDR,151.242.183.12,custom-direct-rules-qx
+HOST,cdn.liminalnet.pro,custom-direct-rules-qx
 HOST,limina.552554.xyz,custom-direct-rules-qx
-IP-CIDR,151.242.183.12,custom-direct-rules-qx
 # 小虾米
 HOST,emby.kingemby.xyz,custom-direct-rules-qx
 HOST,fd1.kingemby.xyz,custom-direct-rules-qx

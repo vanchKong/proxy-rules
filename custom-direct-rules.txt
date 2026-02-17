@@ -183,9 +183,8 @@ payload:
   # luxrealm
   - DOMAIN,cdn.luxrealm.space
   # Liminal-Pro
-  - IP-CIDR,151.242.183.12
+  - DOMAIN,cdn.liminalnet.pro
   - DOMAIN,limina.552554.xyz
-  - IP-CIDR,151.242.183.12
   # 小虾米
   - DOMAIN,emby.kingemby.xyz
   - DOMAIN,fd1.kingemby.xyz

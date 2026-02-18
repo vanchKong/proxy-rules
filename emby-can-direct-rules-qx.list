@@ -1,0 +1,71 @@
+# emby 能直连的路线
+# Emos
+HOST,emos.best,emby-can-direct-rules-qx
+# OKEmby
+HOST,link00.okemby.org,emby-can-direct-rules-qx
+HOST,link01.okemby.org,emby-can-direct-rules-qx
+# 龙服
+HOST,cfcdn.longemby.com,emby-can-direct-rules-qx
+# HG
+HOST,emby.dnscf.dpdns.org,emby-can-direct-rules-qx
+# HELLO HK
+HOST,hellohk.me,emby-can-direct-rules-qx
+# msky
+HOST,wcf.3msky.com,emby-can-direct-rules-qx
+# nyamedia
+HOST,emby.bangumi.ca,emby-can-direct-rules-qx
+# HDSKY 经典
+HOST,nl2.lovehd.de,emby-can-direct-rules-qx
+HOST,lv1.lovehd.de,emby-can-direct-rules-qx
+HOST,lv2.lovehd.de,emby-can-direct-rules-qx
+HOST,nl1.lovehd.de,emby-can-direct-rules-qx
+HOST,nl2.lovehd.de,emby-can-direct-rules-qx
+HOST,us.lovehd.de,emby-can-direct-rules-qx
+HOST,hk.lovehd.de,emby-can-direct-rules-qx
+HOST,de1.lovehd.de,emby-can-direct-rules-qx
+HOST,de2.lovehd.de,emby-can-direct-rules-qx
+HOST,de3.lovehd.de,emby-can-direct-rules-qx
+# HDSKY WEB
+HOST,t.nL.wmuu.de,emby-can-direct-rules-qx
+HOST,d.auto.wmuu.de,emby-can-direct-rules-qx
+HOST,dL.auto.wmuu.de,emby-can-direct-rules-qx
+HOST,dy.auto.wmuu.de,emby-can-direct-rules-qx
+HOST,dLy.auto.wmuu.de,emby-can-direct-rules-qx
+# 壮壮
+HOST,tv.embyapp.top,emby-can-direct-rules-qx
+# 我身无拘/Faemby/unbond
+HOST,faemby.vip,emby-can-direct-rules-qx
+# CookieEmby
+HOST,emby.nas.edu.kg,emby-can-direct-rules-qx
+# Shrek
+HOST,public.shrekmedia.org,emby-can-direct-rules-qx
+# EmbyHello
+HOST,emby.istyboe.top,emby-can-direct-rules-qx
+HOST,114514.fuckme.pushgoodcloud.com,emby-can-direct-rules-qx
+# 牛逼
+HOST,772111.xyz,emby-can-direct-rules-qx
+# HOHAI
+HOST,emby-npo.hohai.eu.org,emby-can-direct-rules-qx
+HOST,drive.hohai.eu.org,emby-can-direct-rules-qx
+# KLEmby
+HOST,tyemby.klplay.top,emby-can-direct-rules-qx
+HOST,media-sxty-fy-person01.sx3oss.ctyunxs.cn,emby-can-direct-rules-qx
+# 起点
+HOST,free.28.al,emby-can-direct-rules-qx
+# 见手青
+HOST,jsq.vban.xyz,emby-can-direct-rules-qx
+# Nayovo
+HOST,nay.007.us.kg,emby-can-direct-rules-qx
+# 叶子硬盘
+HOST,yp.lyezi.cc,emby-can-direct-rules-qx
+HOST,kuai1.lyezi.xyz,emby-can-direct-rules-qx
+HOST,kuai2.lyezi.xyz,emby-can-direct-rules-qx
+HOST,kuai3.lyezi.xyz,emby-can-direct-rules-qx
+HOST,kuai5.lyezi.xyz,emby-can-direct-rules-qx
+# 叶子网盘
+HOST,wp.lyezi.cc,emby-can-direct-rules-qx
+# 狗剩
+HOST,gousen.cc.cd,emby-can-direct-rules-qx
+# 非越
+HOST,cf.sfcj.org,custom-direct-rules-qx
+HOST,cdn.sfcj.org,custom-direct-rules-qx

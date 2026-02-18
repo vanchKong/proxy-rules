@@ -1,0 +1,208 @@
+DOMAIN-SUFFIX,vanch.fun
+DOMAIN-SUFFIX,ipw.cn
+DOMAIN-SUFFIX,dmzshequ.com
+DOMAIN,vanch.us.kg
+DOMAIN,haveibeenpwned.com
+DOMAIN,console.bce.baidu.com
+DOMAIN,login.bce.baidu.com
+DOMAIN,canyouseeme.org
+DOMAIN,greencloudvps.com
+IP-CIDR,152.53.20.228/32
+IP-CIDR,89.58.63.177/32
+IP-CIDR,144.76.112.116/32
+IP-CIDR,185.207.125.226/32
+IP-CIDR,152.53.131.216/32
+DOMAIN-SUFFIX,cloudlayer.icu
+DOMAIN-SUFFIX,docker.1panel.dev
+DOMAIN-SUFFIX,docker.1panel.live
+DOMAIN-KEYWORD,oracle
+DOMAIN-KEYWORD,oraclecloud
+IP-CIDR,64.181.253.50/32
+IP-CIDR,149.88.87.232/32
+IP-CIDR,45.207.195.186/32
+IP-CIDR,152.53.131.163/32
+DOMAIN,ghproxy.net
+DOMAIN,www.paypal.com
+DOMAIN,ui.886663.xyz
+IP-CIDR6,2a14:7dc0:100:101:101::582/128
+IP-CIDR,46.232.60.235/32
+DOMAIN,bu.dusays.com
+DOMAIN,yxvm.com
+DOMAIN-SUFFIX,customercontrolpanel.de
+DOMAIN-SUFFIX,servercontrolpanel.de
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,hetzner.com
+DOMAIN-SUFFIX,idenfy.com
+DOMAIN,checkout.stripe.com
+DOMAIN-SUFFIX,uvuu.de
+DOMAIN-SUFFIX,chaotian.de
+PROCESS-NAME,Cursor Helper (Plugin)
+DOMAIN-SUFFIX,netcup.com
+DOMAIN,image.dooo.ng
+DOMAIN,user.hikeba.club
+DOMAIN,pingtas.qq.com
+DOMAIN-SUFFIX,imgbox.com
+DOMAIN-SUFFIX,notion.so
+IP-CIDR,87.83.110.187/22 # YXVM
+
+# PT 网站
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,m-team.io
+DOMAIN-SUFFIX,springsunday.net
+DOMAIN-SUFFIX,totheglory.im
+DOMAIN-SUFFIX,hdsky.me
+DOMAIN-SUFFIX,ptchdbits.co
+DOMAIN-SUFFIX,ubits.club
+DOMAIN-SUFFIX,audiences.me
+DOMAIN-SUFFIX,hhan.club
+DOMAIN-SUFFIX,hhanclub.net
+DOMAIN-SUFFIX,ourbits.club
+DOMAIN-SUFFIX,keepfrds.com
+DOMAIN-SUFFIX,hdhome.org
+DOMAIN-SUFFIX,hddolby.com
+DOMAIN-SUFFIX,hdarea.club
+DOMAIN-SUFFIX,btschool.club
+DOMAIN-SUFFIX,zmpt.cc
+DOMAIN-SUFFIX,piggo.me
+DOMAIN-SUFFIX,qingwapt.com
+DOMAIN-SUFFIX,ptlgs.org
+DOMAIN-SUFFIX,cyanbug.net
+DOMAIN-SUFFIX,lemonhd.club
+DOMAIN-SUFFIX,pttime.org
+DOMAIN-SUFFIX,crabpt.vip
+DOMAIN-SUFFIX,hdtime.org
+DOMAIN-SUFFIX,ptcafe.club
+DOMAIN-SUFFIX,agsvpt.com
+DOMAIN-SUFFIX,kufei.org
+DOMAIN-SUFFIX,soulvoice.club
+DOMAIN-SUFFIX,zhuque.in
+DOMAIN-SUFFIX,ptsbao.club
+DOMAIN-SUFFIX,hdfans.org
+DOMAIN-SUFFIX,pandapt.net
+DOMAIN-SUFFIX,hdkyl.in
+DOMAIN-SUFFIX,hdkylin.com
+DOMAIN-SUFFIX,hdkylin.top
+DOMAIN-SUFFIX,tmpt.top
+DOMAIN-SUFFIX,raingfh.top
+DOMAIN-SUFFIX,hdvideo.one
+DOMAIN-SUFFIX,ultrahd.net
+DOMAIN-SUFFIX,sunnypt.top
+DOMAIN-SUFFIX,ptchina.org
+
+DOMAIN-SUFFIX,rousi.zip
+DOMAIN-SUFFIX,yemapt.org
+DOMAIN-SUFFIX,ptvicomo.net
+DOMAIN-SUFFIX,ilolicon.com
+DOMAIN-SUFFIX,icc2022.com
+
+
+
+
+# PT Tracker
+DOMAIN,tracker.m-team.cc
+DOMAIN,t.audiences.me
+DOMAIN,tracker.cinefiles.info
+DOMAIN,tracker.hhanclub.net
+DOMAIN,tracker.hhan.club
+DOMAIN,tracker.trackerfile.com
+DOMAIN,ourbits.club
+DOMAIN,t.ubits.club
+DOMAIN,tracker.keepfrds.com
+DOMAIN,t.hdhome.org
+DOMAIN,t.hddolby.com
+DOMAIN,tracker.hdarea.club
+DOMAIN,pt.btschool.club
+DOMAIN,zmpt.cc
+DOMAIN,tracker.piggo.me
+DOMAIN,tracker.qingwa.pro
+DOMAIN,ptl.gs
+DOMAIN,tracker.cyanbug.net
+DOMAIN,tracker01.ilovelemonhd.me
+DOMAIN,www.pttime.org
+DOMAIN,crabpt.vip
+DOMAIN,tracker.hdtime.org
+DOMAIN,tracker.ptcafe.club
+DOMAIN,raingfh.top
+DOMAIN,rousi.zip
+DOMAIN,cdn.rousi.zip
+DOMAIN,tracker.yemapt.org
+DOMAIN,agsvpt.trackers.work
+DOMAIN,ptchina.org
+DOMAIN,tracker1.icc2022.de
+DOMAIN,tracker.icc2022.xyz
+DOMAIN,tracker2.icc2022.de
+DOMAIN,tracker3.icc2022.de
+DOMAIN,hdvideo.one
+DOMAIN,kufei.org
+DOMAIN,tracker.ilolicon.cc
+DOMAIN,ultrahd.net
+DOMAIN,pt.soulvoice.club
+DOMAIN,tracker.zhuque.in
+DOMAIN,tracker.hdkyl.in
+DOMAIN,www.hdkylin.top
+DOMAIN,tracker.ptvicomo.net
+DOMAIN,tracker.ptchdbits.co
+DOMAIN,tracker.rainbowisland.co
+DOMAIN,chdbits.xyz
+DOMAIN,ptsbao.club
+DOMAIN,tracker.hdsky.me
+DOMAIN,hdfans.org
+DOMAIN,pandapt.net
+DOMAIN,sunnytk.top
+DOMAIN,tracker.sunnypt.top
+
+# emby 直连路线
+# 龙服
+DOMAIN,hkcdn.longemby.com
+DOMAIN,jpcdn.longemby.com
+# Mirai
+DOMAIN,stream-1.miraiemby.com
+DOMAIN,stream-1.jiedaibao.gs
+DOMAIN,stream-3.miraiemby.com
+DOMAIN,mi2.miraiemby.com
+DOMAIN,mi3.miraiemby.com
+# 蘑菇网盘服
+DOMAIN,wf.vban.xyz
+# MICU
+DOMAIN,tv.micu.hk
+# YounoPlus
+DOMAIN,plushk1.younoyes.com
+DOMAIN,plushk2.younoyes.com
+DOMAIN,plusjp1.younoyes.com
+DOMAIN,plusde1.younoyes.com
+DOMAIN,plusus1.younoyes.com
+DOMAIN,plusus2.younoyes.com
+DOMAIN,plusus3.younoyes.com
+# UHD
+DOMAIN,smart.uhdnow.com
+# BCXC
+DOMAIN,xc.l0323.top
+DOMAIN,a.l0323.top
+DOMAIN,e.iemby.cn
+DOMAIN,media-qhxn-fj-person.qh6oss.ctyunxs.cn
+# luxrealm
+DOMAIN,cdn.luxrealm.space
+# Liminal-Pro
+DOMAIN,cdn.liminalnet.pro
+DOMAIN,limina.552554.xyz
+# 小虾米
+DOMAIN,emby.kingemby.xyz
+DOMAIN,fd1.kingemby.xyz
+DOMAIN,fd.kingemby.xyz
+# Lily
+DOMAIN,cdn.lilyemby.com
+DOMAIN,tx.lilyemby.com
+DOMAIN,aliyun.lilyemby.com
+# 小姨子
+DOMAIN,5.emby.yun
+DOMAIN,emby.yun
+# 惊蛰
+DOMAIN,emby.jingzhe.pro
+DOMAIN,stream2.jingzhe.pro
+# 留影社
+DOMAIN,ness1.xxqqx.cn
+# Peach 桃子
+DOMAIN,white.embymv.link
+# 月饼
+DOMAIN,emby.my
+DOMAIN,a.emby.my

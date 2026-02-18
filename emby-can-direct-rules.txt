@@ -67,3 +67,6 @@ payload:
   - DOMAIN,wp.lyezi.cc
   # 狗剩
   - DOMAIN,gousen.cc.cd
+  # 非越
+  - DOMAIN,cf.sfcj.org
+  - DOMAIN,cdn.sfcj.org

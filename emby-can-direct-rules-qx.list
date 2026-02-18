@@ -66,3 +66,6 @@ HOST,kuai5.lyezi.xyz,emby-can-direct-rules-qx
 HOST,wp.lyezi.cc,emby-can-direct-rules-qx
 # 狗剩
 HOST,gousen.cc.cd,emby-can-direct-rules-qx
+# 非越
+HOST,cf.sfcj.org,custom-direct-rules-qx
+HOST,cdn.sfcj.org,custom-direct-rules-qx

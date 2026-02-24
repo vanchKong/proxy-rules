@@ -207,5 +207,3 @@ payload:
   # 月饼
   - DOMAIN,emby.my
   - DOMAIN,a.emby.my
-  # 非越
-  - DOMAIN,cdn.sfcj.org

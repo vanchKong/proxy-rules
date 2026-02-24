@@ -202,5 +202,3 @@ HOST,white.embymv.link,custom-direct-rules-qx
 # 月饼
 HOST,emby.,custom-direct-rules-qx
 HOST,a.emby.my,custom-direct-rules-qx
-# 非越
-HOST,cdn.sfcj.org,custom-direct-rules-qx

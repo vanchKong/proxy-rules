@@ -39,6 +39,7 @@ HOST,pingtas.qq.com,custom-direct-rules-qx
 HOST-SUFFIX,imgbox.com,custom-direct-rules-qx
 HOST-SUFFIX,notion.so,custom-direct-rules-qx
 IP-CIDR,87.83.110.187/22,custom-direct-rules-qx # YXVM
+HOST,aeventlog.beacon.qq.com,custom-direct-rules-qx
 
 
 # PT 网站
@@ -201,3 +202,5 @@ HOST,white.embymv.link,custom-direct-rules-qx
 # 月饼
 HOST,emby.,custom-direct-rules-qx
 HOST,a.emby.my,custom-direct-rules-qx
+# 非越
+HOST,cdn.sfcj.org,custom-direct-rules-qx

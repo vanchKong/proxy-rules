@@ -44,6 +44,7 @@ DOMAIN,pingtas.qq.com
 DOMAIN-SUFFIX,imgbox.com
 DOMAIN-SUFFIX,notion.so
 IP-CIDR,87.83.110.187/22 # YXVM
+DOMAIN,aeventlog.beacon.qq.com
 
 # PT 网站
 DOMAIN-SUFFIX,m-team.cc
@@ -206,3 +207,5 @@ DOMAIN,white.embymv.link
 # 月饼
 DOMAIN,emby.my
 DOMAIN,a.emby.my
+# 非越
+DOMAIN,cdn.sfcj.org

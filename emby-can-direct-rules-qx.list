@@ -69,3 +69,4 @@ HOST,gousen.cc.cd,emby-can-direct-rules-qx
 # 非越
 HOST,cf.sfcj.org,custom-direct-rules-qx
 HOST,cdn.sfcj.org,custom-direct-rules-qx
+HOST,media.emby.pro,custom-direct-rules-qx

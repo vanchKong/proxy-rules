@@ -7,6 +7,8 @@ HOST,emby.levilde.bond,emby-proxy-rules-qx
 HOST,hka-emby.aliz.work,emby-proxy-rules-qx
 # PlayZ
 HOST,playzemby.mjji.de,emby-proxy-rules-qx
+# 卷毛鼠
+HOST,micro.cr18.eu.org,emby-proxy-rules-qx
 
 
 
@@ -19,3 +21,4 @@ HOST,store.alphatvapp.top,emby-proxy-rules-qx
 HOST,store.lyrebirdemby.com,emby-proxy-rules-qx
 HOST,store.alphatvapp.top,emby-proxy-rules-qx
 HOST,www.liminalnet.store,emby-proxy-rules-qx
+HOST,shop.rochub.xyz,emby-proxy-rules-qx

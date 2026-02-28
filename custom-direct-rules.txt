@@ -208,3 +208,7 @@ payload:
   # 月饼
   - DOMAIN,emby.my
   - DOMAIN,a.emby.my
+  # vvpro
+  - DOMAIN,vvproalcdn.gbpgbp.cn
+  - DOMAIN,coronavvpro.vvprovip.top
+  - DOMAIN,malibu.vvprovip.top

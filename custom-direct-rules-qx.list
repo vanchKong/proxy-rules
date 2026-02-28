@@ -203,3 +203,7 @@ HOST,white.embymv.link,custom-direct-rules-qx
 # 月饼
 HOST,emby.,custom-direct-rules-qx
 HOST,a.emby.my,custom-direct-rules-qx
+# vvpro
+HOST,vvproalcdn.gbpgbp.cn,custom-direct-rules-qx
+HOST,coronavvpro.vvprovip.top,custom-direct-rules-qx
+HOST,malibu.vvprovip.top,custom-direct-rules-qx

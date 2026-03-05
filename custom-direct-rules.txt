@@ -152,10 +152,15 @@ payload:
   - DOMAIN,tracker.sunnypt.top
 
 
-# emby 直连路线
+  # 反代
+  - DOMAIN-SUFFIX,dolby.dpdns.org
+  - DOMAIN-SUFFIX,embys.dpdns.org
+  # emby 直连路线
   # 龙服
   - DOMAIN,hkcdn.longemby.com
   - DOMAIN,jpcdn.longemby.com
+  - DOMAIN,pkstream-hk.longemby.top
+  - DOMAIN,pkstream-jp.longemby.top
   # Mirai
   - DOMAIN,stream-1.miraiemby.com
   - DOMAIN,stream-1.jiedaibao.gs
@@ -212,3 +217,5 @@ payload:
   - DOMAIN,vvproalcdn.gbpgbp.cn
   - DOMAIN,coronavvpro.vvprovip.top
   - DOMAIN,malibu.vvprovip.top
+  # 月之轩
+  - DOMAIN,emby.4348663.xyz

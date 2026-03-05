@@ -6,6 +6,7 @@ HOST,link00.okemby.org,emby-can-direct-rules-qx
 HOST,link01.okemby.org,emby-can-direct-rules-qx
 # 龙服
 HOST,cfcdn.longemby.com,emby-can-direct-rules-qx
+HOST,cfstream.longemby.top,emby-can-direct-rules-qx
 # HG
 HOST,emby.dnscf.dpdns.org,emby-can-direct-rules-qx
 # HELLO HK
@@ -70,3 +71,9 @@ HOST,gousen.cc.cd,emby-can-direct-rules-qx
 HOST,cf.sfcj.org,custom-direct-rules-qx
 HOST,cdn.sfcj.org,custom-direct-rules-qx
 HOST,media.emby.pro,custom-direct-rules-qx
+# EBS 幻梦花海
+HOST,emby.yvle.de,custom-direct-rules-qx
+# 风月阁
+HOST,mmp.digimon.ink,custom-direct-rules-qx
+# 一之濑琴美
+HOST,emby.ichinosekotomi.com,custom-direct-rules-qx

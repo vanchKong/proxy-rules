@@ -147,10 +147,15 @@ HOST,sunnytk.top,custom-direct-rules-qx
 HOST,tracker.sunnypt.top,custom-direct-rules-qx
 
 
+# 反代
+HOST-SUFFIX,dolby.dpdns.org,custom-direct-rules-qx
+HOST-SUFFIX,embys.dpdns.org,custom-direct-rules-qx
 # emby 直连路线
 # 龙服
 HOST,hkcdn.longemby.com,custom-direct-rules-qx
 HOST,jpcdn.longemby.com,custom-direct-rules-qx
+HOST,pkstream-hk.longemby.top,custom-direct-rules-qx
+HOST,pkstream-jp.longemby.top,custom-direct-rules-qx
 # Mirai
 HOST,stream-1.miraiemby.com,custom-direct-rules-qx
 HOST,stream-1.jiedaibao.gs,custom-direct-rules-qx
@@ -207,3 +212,5 @@ HOST,a.emby.my,custom-direct-rules-qx
 HOST,vvproalcdn.gbpgbp.cn,custom-direct-rules-qx
 HOST,coronavvpro.vvprovip.top,custom-direct-rules-qx
 HOST,malibu.vvprovip.top,custom-direct-rules-qx
+# 月之轩
+HOST,emby.4348663.xyz,custom-direct-rules-qx

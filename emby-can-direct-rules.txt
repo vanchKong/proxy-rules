@@ -78,3 +78,5 @@ payload:
   - DOMAIN,mmp.digimon.ink
   # 一之濑琴美
   - DOMAIN,emby.ichinosekotomi.com
+  # Youno
+  - DOMAIN,emby.younoyes.com

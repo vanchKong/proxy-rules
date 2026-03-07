@@ -219,3 +219,10 @@ payload:
   - DOMAIN,malibu.vvprovip.top
   # 月之轩
   - DOMAIN,emby.4348663.xyz
+  # 西瓜 （非冰镇）
+  - DOMAIN-SUFFIX,yuntv.de
+  # 小鸡
+  - DOMAIN,emby.sadchicktv.com
+  # 折纸
+  - DOMAIN,kkp.zhezhi.art
+  - DOMAIN,cdn.zhezhi.art

@@ -83,3 +83,7 @@ payload:
   - DOMAIN,share.ilolicon.com
   - DOMAIN,www.icc2022.com
   - DOMAIN,www.hdkyl.in
+
+
+  # Peach 桃子
+  - DOMAIN,white.embymv.link

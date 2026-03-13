@@ -221,3 +221,5 @@ HOST,emby.sadchicktv.com,custom-direct-rules-qx
 # 折纸
 HOST,kkp.zhezhi.art,custom-direct-rules-qx
 HOST,cdn.zhezhi.art,custom-direct-rules-qx
+# Echo
+HOST,super.echoflix.de,custom-direct-rules-qx

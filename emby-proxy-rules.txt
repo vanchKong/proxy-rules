@@ -1,0 +1,23 @@
+# emby 只能挂梯的路线
+payload:
+  # sntp
+  - DOMAIN,lite.cn2gias.uk
+  # Levilde Luminia
+  - DOMAIN,emby.levilde.bond
+  # HKA
+  - DOMAIN,hka-emby.aliz.work
+  # PlayZ
+  - DOMAIN,playzemby.mjji.de
+  # 卷毛鼠
+  - DOMAIN,micro.cr18.eu.org
+
+  # Emby 发卡
+  - DOMAIN,u.3msky.com
+  - DOMAIN-SUFFIX,nvidia.rip
+  - DOMAIN,shop.ii00.cc
+  - DOMAIN,faka.embymv.link
+  - DOMAIN,store.alphatvapp.top
+  - DOMAIN,store.lyrebirdemby.com
+  - DOMAIN,store.alphatvapp.top
+  - DOMAIN,www.liminalnet.store
+  - DOMAIN,shop.rochub.xyz

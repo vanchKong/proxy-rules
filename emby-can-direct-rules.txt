@@ -82,3 +82,16 @@ payload:
   - DOMAIN,emby.younoyes.com
   # 小虾米公益
   - DOMAIN,xxm.kingemby.xyz
+  # 佬友记
+  - DOMAIN,emby.605305.xyz
+  # 憨豆
+  - DOMAIN,a1.handoumedia.top
+  # 青梅映画
+  - DOMAIN,cfqm6748.chuncheon123.xyz
+  # 鲲鹏
+  - DOMAIN,emby.rochub.xyz
+  - DOMAIN,emby.cf.rochub.xyz
+  # 周三晚
+  - DOMAIN,zhousanwan.xyz
+  飞喵
+  - DOMAIN,gy.meowfly.de

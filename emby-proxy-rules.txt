@@ -12,6 +12,9 @@ payload:
   - DOMAIN,micro.cr18.eu.org
   # ASH
   - DOMAIN,ask.ash.yt
+  # 周三晚
+  - DOMAIN-SUFFIX,zhousanwan.xyz
+
 
   # Emby 发卡
   - DOMAIN,u.3msky.com
@@ -23,3 +26,7 @@ payload:
   - DOMAIN,store.alphatvapp.top
   - DOMAIN,www.liminalnet.store
   - DOMAIN,shop.rochub.xyz
+  - DOMAIN,store.echoflix.de
+  - DOMAIN,wiki.mebimmer.de
+  - DOMAIN,pay.etflix.lol
+  - DOMAIN,shop.irisnb.com

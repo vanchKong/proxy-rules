@@ -44,7 +44,12 @@ DOMAIN,pingtas.qq.com
 DOMAIN-SUFFIX,imgbox.com
 DOMAIN-SUFFIX,notion.so
 IP-CIDR,87.83.110.187/22 # YXVM
+IP-CIDR,38.76.163.82/22 # 狐蒂云
+IP-CIDR,153.92.126.234/22 # hosthatch
 DOMAIN,aeventlog.beacon.qq.com
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,szhdy.com
+IP-CIDR,94.16.116.201/22 # vvpro
 
 # PT 网站
 DOMAIN-SUFFIX,m-team.cc
@@ -89,6 +94,7 @@ DOMAIN-SUFFIX,hdvideo.one
 DOMAIN-SUFFIX,ultrahd.net
 DOMAIN-SUFFIX,sunnypt.top
 DOMAIN-SUFFIX,ptchina.org
+DOMAIN-SUFFIX,empornium.sx
 
 DOMAIN-SUFFIX,rousi.zip
 DOMAIN-SUFFIX,yemapt.org

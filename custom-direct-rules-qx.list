@@ -39,7 +39,12 @@ HOST,pingtas.qq.com,custom-direct-rules-qx
 HOST-SUFFIX,imgbox.com,custom-direct-rules-qx
 HOST-SUFFIX,notion.so,custom-direct-rules-qx
 IP-CIDR,87.83.110.187/22,custom-direct-rules-qx # YXVM
+IP-CIDR,38.76.163.82/22,custom-direct-rules-qx # 狐蒂云
+IP-CIDR,153.92.126.234/22,custom-direct-rules-qx # hosthatch
 HOST,aeventlog.beacon.qq.com,custom-direct-rules-qx
+HOST-SUFFIX,mmstat.com,custom-direct-rules-qx
+HOST-SUFFIX,szhdy.com,custom-direct-rules-qx
+IP-CIDR,94.16.116.201/22,custom-direct-rules-qx # vvpro
 
 
 # PT 网站
@@ -85,6 +90,7 @@ HOST-SUFFIX,hdvideo.one,custom-direct-rules-qx
 HOST-SUFFIX,ultrahd.net,custom-direct-rules-qx
 HOST-SUFFIX,sunnypt.top,custom-direct-rules-qx
 HOST-SUFFIX,ptchina.org,custom-direct-rules-qx
+HOST-SUFFIX,empornium.sx,custom-direct-rules-qx
 
 HOST-SUFFIX,rousi.zip,custom-direct-rules-qx
 HOST-SUFFIX,yemapt.org,custom-direct-rules-qx

@@ -45,6 +45,7 @@ HOST,aeventlog.beacon.qq.com,custom-direct-rules-qx
 HOST-SUFFIX,mmstat.com,custom-direct-rules-qx
 HOST-SUFFIX,szhdy.com,custom-direct-rules-qx
 IP-CIDR,94.16.116.201/22,custom-direct-rules-qx # vvpro
+HOST-SUFFIX,alibabacloud.com
 
 
 # PT 网站

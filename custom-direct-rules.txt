@@ -51,6 +51,7 @@ payload:
   - DOMAIN-SUFFIX,mmstat.com
   - DOMAIN-SUFFIX,szhdy.com
   - IP-CIDR,94.16.116.201/22 # vvpro
+  - DOMAIN-SUFFIX,alibabacloud.com
 
   # PT 网站
   - DOMAIN-SUFFIX,m-team.cc

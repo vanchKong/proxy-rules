@@ -201,7 +201,7 @@ HOST,cdn.lilyemby.com,custom-direct-rules-qx
 HOST,tx.lilyemby.com,custom-direct-rules-qx
 HOST,aliyun.lilyemby.com,custom-direct-rules-qx
 # 小姨子
-HOST,2.66990000.xyz,custom-direct-rules-qx
+HOST-SUFFIX,emby.yun,custom-direct-rules-qx
 # 惊蛰
 HOST,emby.jingzhe.pro,custom-direct-rules-qx
 HOST,stream2.jingzhe.pro,custom-direct-rules-qx

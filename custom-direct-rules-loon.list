@@ -206,7 +206,7 @@ DOMAIN,cdn.lilyemby.com
 DOMAIN,tx.lilyemby.com
 DOMAIN,aliyun.lilyemby.com
 # 小姨子
-DOMAIN,2.66990000.xyz
+DOMAIN-SUFFIX,emby.yun
 # 惊蛰
 DOMAIN,emby.jingzhe.pro
 DOMAIN,stream2.jingzhe.pro

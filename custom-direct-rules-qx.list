@@ -228,3 +228,9 @@ HOST,kkp.zhezhi.art,custom-direct-rules-qx
 HOST,cdn.zhezhi.art,custom-direct-rules-qx
 # Echo
 HOST,super.echoflix.de,custom-direct-rules-qx
+# 呆呆
+HOST-SUFFIX,daidaio.com,custom-direct-rules-qx
+# 流年
+HOST-SUFFIX,mon3tr.cn,custom-direct-rules-qx
+# i 佬
+IP-CIDR，8.134.251.200/32,custom-direct-rules-qx
